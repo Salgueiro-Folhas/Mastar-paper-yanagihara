@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.10.15)  19 OCT 2020 19:22
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.10.15)  26 OCT 2020 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -186,15 +186,33 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count188
+\output=\toks23
+\linenoprevgraf=\count189
+\linenumbersep=\dimen167
+\linenumberwidth=\dimen168
+\c@linenumber=\count190
+\c@pagewiselinenumber=\count191
+\c@LN@truepage=\count192
+\c@internallinenumber=\count193
+\c@internallinenumbers=\count194
+\quotelinenumbersep=\dimen169
+\bframerule=\dimen170
+\bframesep=\dimen171
+\bframebox=\box66
+LaTeX Info: Redefining \\ on input line 3056.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2020-02-03 L3 backend support: dvips
-\l__pdf_internal_box=\box66
-\g__pdf_backend_object_int=\count188
-\l__pdf_backend_content_box=\box67
-\l__pdf_backend_model_box=\box68
-\g__pdf_backend_annotation_int=\count189
-\g__pdf_backend_link_int=\count190
-\g__pdf_backend_link_sf_int=\count191
+\l__pdf_internal_box=\box67
+\g__pdf_backend_object_int=\count195
+\l__pdf_backend_content_box=\box68
+\l__pdf_backend_model_box=\box69
+\g__pdf_backend_annotation_int=\count196
+\g__pdf_backend_link_int=\count197
+\g__pdf_backend_link_sf_int=\count198
 )
 (./master_thesis_yanagihara.aux)
 \openout1 = `master_thesis_yanagihara.aux'.
@@ -314,102 +332,153 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [6] [7]
-[8] [9]
+[8]
+File: pht/hysteresis_signature.eps Graphic file (type eps)
+<pht/hysteresis_signature.eps>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 426.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 426.
+ [9] [10]
+File: pht/p2p_network_image_r1.eps Graphic file (type eps)
+<pht/p2p_network_image_r1.eps>
+
+Overfull \hbox (578.66887pt too wide) in paragraph at lines 512--513
+ [] 
+ []
+
+[11]
 File: pht/block_structure.eps Graphic file (type eps)
 <pht/block_structure.eps>
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 506.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 506.
- [10]
+
+Overfull \hbox (181.18387pt too wide) in paragraph at lines 537--538
+ [] 
+ []
+
 File: pht/time_sequence-algorithm1.eps Graphic file (type eps)
 <pht/time_sequence-algorithm1.eps>
 File: pht/flow_chart-algorithm1.eps Graphic file (type eps)
 <pht/flow_chart-algorithm1.eps>
-File: pht/flow_chart-algorithm2.eps Graphic file (type eps)
-<pht/flow_chart-algorithm2.eps>
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11] [12]
-File: pht/p2p_network_image_r1.eps Graphic file (type eps)
-<pht/p2p_network_image_r1.eps>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: pht/hysteresis_signature.eps Graphic file (type eps)
-<pht/hysteresis_signature.eps>
-[13] [14] [15]
-File: pht/hist-comp-R-alpha2.0-m1.0.eps Graphic file (type eps)
-<pht/hist-comp-R-alpha2.0-m1.0.eps>
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 703.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 703.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 703.
-File: pht/hist-comp-R-alpha3.0-m1.0.eps Graphic file (type eps)
-<pht/hist-comp-R-alpha3.0-m1.0.eps>
- [16]
-File: pht/Screenshot.eps Graphic file (type eps)
-<pht/Screenshot.eps>
-
-Overfull \hbox (85.3692pt too wide) in paragraph at lines 731--732
+Overfull \hbox (310.66762pt too wide) in paragraph at lines 585--586
  [] 
  []
 
-[17]
-LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <10> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 746.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 746.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 746.
-LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <10> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 746.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 746.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 746.
 
-Overfull \hbox (109.21526pt too wide) in paragraph at lines 768--780
+LaTeX Warning: Float too large for page by 300.25021pt on input line 589.
+
+File: pht/flow_chart-algorithm2.eps Graphic file (type eps)
+<pht/flow_chart-algorithm2.eps>
+
+Overfull \hbox (239.40137pt too wide) in paragraph at lines 595--596
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 274.24677pt on input line 599.
+
+[12] [13] [14]
+File: pht/hist-comp-R-alpha2.0-m1.0.eps Graphic file (type eps)
+<pht/hist-comp-R-alpha2.0-m1.0.eps>
+
+Overfull \hbox (64.74887pt too wide) in paragraph at lines 702--703
+ [] 
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 704.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 704.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 704.
+File: pht/hist-comp-R-alpha3.0-m1.0.eps Graphic file (type eps)
+<pht/hist-comp-R-alpha3.0-m1.0.eps>
+
+Overfull \hbox (74.78638pt too wide) in paragraph at lines 712--713
+ [] 
+ []
+
+LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <10> not available
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 735.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 735.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 735.
+LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <10> not available
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 735.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 735.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 735.
+[15]
+File: pht/Screenshot.eps Graphic file (type eps)
+<pht/Screenshot.eps>
+
+Overfull \hbox (733.24637pt too wide) in paragraph at lines 758--759
+ [] 
+ []
+
+[16]
+Overfull \hbox (109.21526pt too wide) in paragraph at lines 795--807
 []\OT1/lmr/m/n/10 Phase1 \JY1/mc/m/n/10 では ， ドメイン $\OML/lmm/m/it/10 D[]$
  \JY1/mc/m/n/10 の中心コアノ ードが履歴交差の依頼 \OT1/lmr/m/n/10 (\OT1/lmr/bx/
 n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
  []
 
-[18]
+[17] [18]
 File: pht/phase1-sec-hist.eps Graphic file (type eps)
 <pht/phase1-sec-hist.eps>
+
+Overfull \hbox (92.85388pt too wide) in paragraph at lines 865--866
+ [] 
+ []
+
 File: pht/phase2-sec-hist.eps Graphic file (type eps)
 <pht/phase2-sec-hist.eps>
+
+Overfull \hbox (92.85388pt too wide) in paragraph at lines 875--876
+ [] 
+ []
+
 File: pht/phase3-sec-hist.eps Graphic file (type eps)
 <pht/phase3-sec-hist.eps>
- [19] [20] [21] [22] [23] [24]
+
+Overfull \hbox (92.85388pt too wide) in paragraph at lines 885--886
+ [] 
+ []
+
+
+Overfull \hbox (109.21526pt too wide) in paragraph at lines 911--923
+[]\OT1/lmr/m/n/10 Phase1 \JY1/mc/m/n/10 では ， ドメイン $\OML/lmm/m/it/10 D[]$
+ \JY1/mc/m/n/10 の中心コアノ ードが履歴交差の依頼 \OT1/lmr/m/n/10 (\OT1/lmr/bx/
+n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
+ []
+
+[19] [20] [21] [22]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-925.
+1001.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1173) in paragraph at lines 946--948
+Underfull \hbox (badness 1173) in paragraph at lines 1022--1024
 []\OT1/lmr/m/n/10 K. Saito\JY1/mc/m/n/10 ， \OT1/lmr/m/n/10 T. Kubo\JY1/mc/m/n/
 10 ， \OT1/lmr/m/n/10 "BBc-1: Be-yond Blockchain One" (2018). $\OT1/lmtt/m/n/10
  https : / /
  []
 
-[25] (./master_thesis_yanagihara.aux) ) 
+[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]
+(./master_thesis_yanagihara.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2127 strings out of 482863
- 30089 string characters out of 5959217
- 268157 words of memory out of 5000000
- 17388 multiletter control sequences out of 15000+600000
+ 2334 strings out of 482863
+ 33176 string characters out of 5959217
+ 272578 words of memory out of 5000000
+ 17591 multiletter control sequences out of 15000+600000
  586408 words of font info for 103 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 30i,8n,25p,244b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,8n,25p,244b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master_thesis_yanagihara.dvi (28 pages, 67496 bytes).
+Output written on master_thesis_yanagihara.dvi (36 pages, 74628 bytes).

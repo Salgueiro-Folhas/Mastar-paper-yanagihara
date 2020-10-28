@@ -209,10 +209,47 @@ Bitcoinを代表とする(パブリックな) ブロックチェーンは，世�
 
 \newpage
 %%----------------------------------------------------------------------
-\section{関連技術動向と関連研究}
+%\section{関連技術動向と関連研究}
 %%----------------------------------------------------------------------
-\subsection{関連技術動向}
-\subsubsection{Bitcoin}
+\section{関連研究}
+      \subsection{PoWaP（Poof of Work at Proximity for a crowdesnsing system）}
+PoWaPとは地理的に近いノード同士が空間領域（ドメイン）を構成して蜜になるネットワークを構成することで，
+ドメイン毎に独自のブロックチェーンを管理するネットワークシステム図ーーーに概要図を示す．
+ドメインに分割して制御することで，ブロックの生成する時間が短縮可能である．
+また、利用者は近くのノードに近距離無線通信でアクセスして取引等の情報を送ることで、ドメイン（地域）に
+特化した情報をブロックチェーンに保持させることも可能になる。
+
+%図の挿入
+
+
+      \subsection{藤原さんのやつ２}
+ふじはらさんのやつ
+
+      \subsubsection{BBc-1}
+
+BBc-1\cite{saito}は，プライベートな取引データを履歴交差により改ざん耐性を持たせて
+保存する (ブロックチェーンではない) 分散台帳技術である．ノードの実装も行われており，
+その有効性が実験的にも確認されている．
+BBc-1では，取引データにヒステリシス署名を追加する．
+ヒステリシス署名を取引データに付けて，ドメイン間でデータを共有することで改ざん耐性を
+高めている．また，PoWによる改ざん耐性の向上を行わない為，エネルギーコストは低く済む
+特徴がある．しかし，改ざん耐性がどの程度向上したかを理論的に評価しにくいことも知られ
+ている. 
+
+      \subsubsection{bloXroute}
+bloXroute \cite{bloX} では，P2Pネットワーク上で取引データやブロックの共有速度を早める
+為に，構造化されたネットワークを(Layer0と呼んでいる)上位ネットワークに構築する提案を
+行っている．
+
+      \subsubsection{Atomic Swap}
+ドメイン間で相手を信用することなく通貨を交換できる技術として，Atomic Swap \cite{atomicswap}
+が知られている．
+
+
+
+
+\section{関連技術動向}
+  \subsection{Bitcoin}
 Bitcoinはデジタルマネーエコシステムの基礎となるコンセプトと技術の集合体である．
 Bitcoinネットワークの参加者間で，価値の保有と転送がBitcoinという名の通貨単位で行われます．
 ユーザー間の通信は主にBitcoinプロトコルに基づいて，インターネットを通じて行われる．
@@ -423,9 +460,9 @@ difficultyターゲットを満たすSHA256のアルゴリズムに対し，解�
 ($H(B_{D_1}), \cdots, H(B_{D_m})$)を追加する．この全体の署名$S_n$を更に追加して生成された
 ものがヒステリシス署名となる．
 
-\begin{figure}[tbh]
+\begin{figure}[H]%挿入図
   \begin{center}
-    \includegraphics[width=85mm]{pht/hysteresis_signature.eps}
+    \includegraphics[width=100mm]{pht/hysteresis_signature.eps}
     %\includegraphics{pht/hysteresis_signature.eps}
   \end{center}
   \caption{ヒステリシス署名の例}
@@ -479,7 +516,20 @@ difficultyターゲットを満たすSHA256のアルゴリズムに対し，解�
 ときの作業量を鼠算的に拡大させる空であり，第
 
 
-\subsection{関連研究}
+\section{関連研究}
+      \subsection{PoWaP（Poof of Work at Proximity for a crowdesnsing system）}
+PoWaPとは地理的に近いノード同士が空間領域（ドメイン）を構成して蜜になるネットワークを構成することで，
+ドメイン毎に独自のブロックチェーンを管理するネットワークシステム図ーーーに概要図を示す．
+ドメインに分割して制御することで，ブロックの生成する時間が短縮可能である．
+また、利用者は近くのノードに近距離無線通信でアクセスして取引等の情報を送ることで、ドメイン（地域）に
+特化した情報をブロックチェーンに保持させることも可能になる。
+
+%図の挿入
+
+
+      \subsection{藤原さんのやつ２}
+ふじはらさんのやつ
+
       \subsubsection{BBc-1}
 
 BBc-1\cite{saito}は，プライベートな取引データを履歴交差により改ざん耐性を持たせて
@@ -511,7 +561,7 @@ bloXroute \cite{bloX} では，P2Pネットワーク上で取引データやブ�
 本研究において提案するP2Pネットワークの構成を図 \ref{fig:p2p}に示す. 
 %
 %
-\begin{figure*}[tbh]
+\begin{figure*}[H]%挿入図
   \begin{center}
     \includegraphics[width=130mm]{pht/p2p_network_image_r1.eps}
     %\includegraphics{pht/p2p_network_image_r1.eps}
@@ -536,10 +586,10 @@ Layer0は，Layer1のドメインを代表する中心コアノード同士がLa
       \subsubsection{ブロック構造}
 提案するブロックの構造を図\ref{fig:block}に示す．
 %
-\begin{figure}[tbh]
+\begin{figure}[H]%挿入図
   \begin{center}
-    %\includegraphics[width=70mm]{pht/block_structure.eps}
-    \includegraphics{pht/block_structure.eps}
+    \includegraphics[width=100mm]{pht/block_structure.eps}
+    %\includegraphics{pht/block_structure.eps}
   \end{center}
   \caption{提案するブロック構造}
   \label{fig:block}
@@ -551,9 +601,9 @@ Layer0は，Layer1のドメインを代表する中心コアノード同士がLa
       \subsubsection{履歴交差法}
 履歴交差法の動作を図\ref{fig:cross-ref}に示す．
 %
-\begin{figure}[tbh]
+\begin{figure}[H]%挿入図
   \begin{center}
-    \includegraphics[width=70mm]{pht/time_sequence-algorithm1.eps}
+    \includegraphics[width=120mm]{pht/time_sequence-algorithm1.eps}
   \end{center}
   \caption{提案する履歴交差法}
   \label{fig:cross-ref}
@@ -583,29 +633,9 @@ Layer0は，Layer1のドメインを代表する中心コアノード同士がLa
 
 履歴交差法を実現する分散アルゴリズム\cite{manabe}を設計した．
 その詳細を図 \ref{fig:algorithm1}，\ref{fig:algorithm2}に示す．
-%
-\begin{figure}[tbh]
-  \begin{center}
-    %\includegraphics[width=85mm]{pht/flow_chart-algorithm1.eps}
-    \includegraphics{pht/flow_chart-algorithm1.eps}
-  \end{center}
-  \caption{アルゴリズム1（Phase 2はLayer1における通常のマイニング作業を行うだけである為，省略した．）}
-  \label{fig:algorithm1}
-\end{figure}
-%
-%
-\begin{figure}[tbh]
-  \begin{center}
-    %\includegraphics[width=85mm]{pht/flow_chart-algorithm2.eps}
-    \includegraphics{pht/flow_chart-algorithm2.eps}
-  \end{center}
-  \caption{アルゴリズム2(Phase 1のみを記述．その他のPhaseはアルゴリズム1と共通．)}
-  \label{fig:algorithm2}
-\end{figure}
-%
- 2つのアルゴリズムが正しく動作する前提条件として，次の1〜3が挙げられる．
+本研究における履歴交差を実現する2つのアルゴリズムが正しく動作する前提条件として，次の1〜3が挙げられる．
 
-\hspace{5mm}
+\hspace{3mm}
 %
 \begin{enumerate}
   \item 中心コアノード同士が作るP2PNWは同期システムである．また，その構造は完全グラフとする．
@@ -618,8 +648,25 @@ Layer0は，Layer1のドメインを代表する中心コアノード同士がLa
         つまり，最悪$t$個の中心コアノードが故障停止に陥った場合でも動作する．
 \end{enumerate}
 %
-\hspace{5mm}
-
+\hspace{3mm}
+%
+\begin{figure}[H]%挿入図
+  \begin{center}
+    \includegraphics[width=100mm]{pht/flow_chart-algorithm1.eps}
+  \end{center}
+  \caption{アルゴリズム1（Phase 2はLayer1における通常のマイニング作業を行うだけである為，省略した．）}
+  \label{fig:algorithm1}
+\end{figure}
+%
+%
+\begin{figure}[H]%挿入図
+  \begin{center}
+    \includegraphics[width=100mm]{pht/flow_chart-algorithm2.eps}
+  \end{center}
+  \caption{アルゴリズム2(Phase 1のみを記述．その他のPhaseはアルゴリズム1と共通．)}
+  \label{fig:algorithm2}
+\end{figure}
+%
       \subsubsection{提案方式における分散アルゴリズムの効率}%テキスト：分散処理システム
 分散アルゴリズムの効率は，通信計算量と時間計算量で評価することが一般的である．
 %-----------------------------------------------------------------------------------
@@ -680,10 +727,9 @@ Layer0は，Layer1のドメインを代表する中心コアノード同士がLa
 ここで $T_i (i=1, 2, 3)$は，アルゴリズム 1においてPhase $i$にかかる時間である．
 
 \newpage
-
-      \subsubsection{実装}
 %
-\section{履歴交差法の理論的性能評価}
+
+\subsection{履歴交差法の理論的性能評価}
 
 履歴交差法を行うことで，ブロックチェーンの改ざん耐性が向上することが期待される．
 ここでは，改ざん耐性向上比率を定義し，理論的にその比率を評価する．
@@ -750,31 +796,34 @@ CPUをいくつ購入できるかは，ノードを所持する人物ないし�
 富の分布と相関があると予想できる．
 この理由により，ハッシュレートの分布をパレート分布とすることは妥当であると考える．
 シミュレーションの実行結果を図 \ref{fig:alpha2}, \ref{fig:alpha3}に示す. 
+
+一般にドメイン数が増加するほど，改ざん耐性向上比率$R$の分布のピークが
+大きい方にシフトすることが分かる．また，ドメイン数が増えると分布の分散
+も大きくなることが確認できる．
+また図\ref{fig:alpha2}と図\ref{fig:alpha3}の比較により，スケールパラメータ
+$\alpha$が小さくなるほど，改ざん耐性向上比率$R$の分布のピークが小さい方にシフトすることも分かる．
+
+
 %
-\begin{figure}[tbh]
+\begin{figure}[th]%挿入図
   \begin{center}
-    \includegraphics[width=75mm]{pht/hist-comp-R-alpha2.0-m1.0.eps}
-    %\includegraphics{pht/hist-comp-R-alpha2.0-m1.0.eps}
+    \includegraphics[width=100mm]{pht/hist-comp-R-alpha2.0-m1.0.eps}
   \end{center}
   \caption{改ざん耐性向上比率$R$の確率分布 ( $\alpha=2$の場合 ) }
   \label{fig:alpha2}
 \end{figure}
 %
 %
-\begin{figure}[tbh]
+\begin{figure}[H]%挿入図
   \begin{center}
-    %\includegraphics[width=75mm]{pht/hist-comp-R-alpha3.0-m1.0.eps}
-    \includegraphics{pht/hist-comp-R-alpha3.0-m1.0.eps}
+    \includegraphics[width=100mm]{pht/hist-comp-R-alpha3.0-m1.0.eps}
   \end{center}
   \caption{改ざん耐性向上比率$R$の確率分布 ( $\alpha=3$の場合 ) }
   \label{fig:alpha3}
 \end{figure}
 %
-一般にドメイン数が増加するほど，改ざん耐性向上比率$R$の分布のピークが
-大きい方にシフトすることが分かる．また，ドメイン数が増えると分布の分散
-も大きくなることが確認できる．
-また図\ref{fig:alpha2}と図\ref{fig:alpha3}の比較により，スケールパラメータ
-$\alpha$が小さくなるほど，改ざん耐性向上比率$R$の分布のピークが小さい方にシフトすることも分かる．
+\newpage
+%
 
 %--------------------------------------------------------------------------------理論的性能評価
 %--------------------------------------------------------------------------------以下実装
@@ -801,16 +850,15 @@ $\alpha$が小さくなるほど，改ざん耐性向上比率$R$の分布のピ
 %
 \hspace{5mm}
 
-\section{ーーーーーーーー}
+\section{検証と実装}
 \subsection{実装}
 \subsubsection{通信プロトコル部の実装}
 \label{syuhou}
 
 %
-\begin{figure*}[tbh]
+\begin{figure*}[H]%挿入図
   \begin{center}
-    %\includegraphics[width=160mm]{pht/Screenshot.eps}
-    \includegraphics{pht/Screenshot.eps}
+    \includegraphics[width=160mm]{pht/Screenshot.eps}
   \end{center}
 	\caption{参照したping値\cite{pings}}
   \label{fig:pings}
@@ -891,7 +939,7 @@ pingのRTTをP[ms]から，送信データサイズをB[Byte]に応じた通信�
 実際に参照した遅延時間を図\ref{fig:pings}，算出したTokyoから150〜500[Byte]のデータサイズを
 他のドメインへの送信した際の通信遅延Lの上限値を表\ref{Byte} に示す．
 
-\begin{table}[tbh]
+\begin{table}[H]%挿入図
   \centering
   \caption{Tokyoからの各ドメインへの通信遅延(小数第2以下は省略)}
   \label{Byte}
@@ -914,30 +962,27 @@ pingのRTTをP[ms]から，送信データサイズをB[Byte]に応じた通信�
 前節で解説した通信プロトコルを用いて実験を行った結果として，各Phaseでの
 遅延時間の分布を図\ref{fig:phase1}, \ref{fig:phase2}, \ref{fig:phase3}に示す．
 %
-\begin{figure}[tbh]
+\begin{figure}[H]%挿入図
   \begin{center}
-    %\includegraphics[width=78mm]{pht/phase1-sec-hist.eps}
-    \includegraphics{pht/phase1-sec-hist.eps}
+    \includegraphics[width=100mm]{pht/phase1-sec-hist.eps}
   \end{center}
   \caption{Phase1の計測時間}
   \label{fig:phase1}
 \end{figure}
 %
 %
-\begin{figure}[tbh]
+\begin{figure}[H]%挿入図
   \begin{center}
-    %\includegraphics[width=78mm]{pht/phase2-sec-hist.eps}
-    \includegraphics{pht/phase2-sec-hist.eps}
+    \includegraphics[width=100mm]{pht/phase2-sec-hist.eps}
   \end{center}
   \caption{Phase2の計測時間}
   \label{fig:phase2}
 \end{figure}
 %
 %
-\begin{figure}[tbh]
+\begin{figure}[H]%挿入図
   \begin{center}
-    %\includegraphics[width=78mm]{pht/phase3-sec-hist.eps}
-    \includegraphics{pht/phase3-sec-hist.eps}
+    \includegraphics[width=100mm]{pht/phase3-sec-hist.eps}
   \end{center}
   \caption{Phase3の計測時間}
   \label{fig:phase3}
@@ -986,11 +1031,6 @@ Phase1の履歴交差部を書き込む為のマイングを行う．今回の�
 他ドメインの中心コアノードに履歴交差に成功したことをブロードキャストする
  (\textbf{MSG\_COMPLETE\_CROSS\_REFERENCE})．
 今回の実験では，$l=3$とした．ブロードキャストを送信した時点でPhase 3は完了となる．
-
-
-
-
-
 
 \subsection{評価}
 \subsection{考察}
@@ -1092,7 +1132,45 @@ Atomic swap, \url{https://en.bitcoin.it/wiki/Atomic_swap#Algorithm}（2020年2�
 \bibitem{pings}
 WonderNetwork, \url{https://wondernetwork.com/pings}（2020年2月10日閲覧確認）
 
-
 \end{thebibliography} 
+
+%%----------------------------------------------------------------------
+%\chapter{研究業績} % 研究業績
+%%----------------------------------------------------------------------
+%\AchieveItem{Hoge}
+%ーーーーーーーーー.
+
+%\AchieveItem{Hogeresults2}
+%ーーーーーーーーー.
+
+%\end{Achievements}
+
+
+\appendix
+
+\part{name}
+\begin{verbatim}
+  #include <iostream>
+  using namespace std;
+  int main() {
+  for(int i = 1; i <= 5; i++) {
+  cout << "こんにちは, C++ の世界! " << i << endl;
+  }
+  return 0;
+  }
+  \end{verbatim}
+  \verb|\usepackage{ascmac}|して\verb|screen| 環境を使うと，枠がつきます。
+  \begin{screen}
+    \begin{verbatim}
+      #include <iostream>
+      using namespace std;
+      int main() {
+        for(int i = 1; i <= 5; i++) {
+          cout << "こんにちは, C++ の世界! " << i << endl;
+          }
+        return 0;
+      }
+    \end{verbatim}
+  \end{screen}
 
 \end{document}

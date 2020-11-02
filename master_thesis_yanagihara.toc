@@ -8,52 +8,59 @@
 \contentsline {subsection}{\numberline {2.1}PoWaP（Poof of Work at Proximity for a crowdesnsing system）}{4}%
 \contentsline {subsection}{\numberline {2.2}藤原さんのやつ２}{4}%
 \contentsline {subsubsection}{\numberline {2.2.1}BBc-1}{4}%
-\contentsline {subsubsection}{\numberline {2.2.2}bloXroute}{4}%
-\contentsline {subsubsection}{\numberline {2.2.3}Atomic Swap}{4}%
+\contentsline {subsection}{\numberline {2.3}bloXroute}{4}%
+\contentsline {subsection}{\numberline {2.4}Atomic Swap}{4}%
 \contentsline {section}{\numberline {3}関連技術動向}{5}%
-\contentsline {subsection}{\numberline {3.1}Bitcoin}{5}%
-\contentsline {subsubsection}{\numberline {3.1.1}集中システムと分散システム}{6}%
-\contentsline {subsubsection}{\numberline {3.1.2}分散台帳技術}{6}%
-\contentsline {subsubsection}{\numberline {3.1.3}ブロックチェーン}{6}%
-\contentsline {subsubsection}{\numberline {3.1.4}transaction（トランザクション）}{7}%
-\contentsline {subsubsection}{\numberline {3.1.5}P2Pネットワーク [peer to peer sysytem]}{7}%
-\contentsline {subsubsection}{\numberline {3.1.6}ナカモト・コンセンサス}{7}%
-\contentsline {subsubsection}{\numberline {3.1.7}Proof of Work (PoW)}{7}%
-\contentsline {subsubsection}{\numberline {3.1.8}暗号学的ハッシュ関数}{7}%
-\contentsline {subsubsection}{\numberline {3.1.9}ナンス(Nonce)}{9}%
-\contentsline {subsubsection}{\numberline {3.1.10}ビットコインにおけるブロック構造}{9}%
-\contentsline {subsubsection}{\numberline {3.1.11}ハッシュレート}{9}%
-\contentsline {subsubsection}{\numberline {3.1.12}公開鍵暗号方式}{9}%
-\contentsline {subsubsection}{\numberline {3.1.13}ブロックチェーンコアノードのドメイン分割}{9}%
-\contentsline {subsubsection}{\numberline {3.1.14}ブロックチェーンにおけるスケラビリティ問題}{9}%
-\contentsline {subsubsection}{\numberline {3.1.15}スケラビリティ問題へのアプローチ}{9}%
-\contentsline {subsubsection}{\numberline {3.1.16}電子署名}{9}%
-\contentsline {subsubsection}{\numberline {3.1.17}ヒステリシス署名}{10}%
-\contentsline {subsubsection}{\numberline {3.1.18}履歴交差法}{10}%
-\contentsline {section}{\numberline {4}関連研究}{11}%
-\contentsline {subsection}{\numberline {4.1}PoWaP（Poof of Work at Proximity for a crowdesnsing system）}{11}%
-\contentsline {subsection}{\numberline {4.2}藤原さんのやつ２}{11}%
-\contentsline {subsubsection}{\numberline {4.2.1}BBc-1}{11}%
-\contentsline {subsubsection}{\numberline {4.2.2}bloXroute}{11}%
-\contentsline {subsubsection}{\numberline {4.2.3}Atomic Swap}{12}%
-\contentsline {section}{\numberline {5}ブロックチェーン履歴交差法}{13}%
-\contentsline {subsection}{\numberline {5.1}提案手法}{13}%
-\contentsline {subsubsection}{\numberline {5.1.1}ブロック構造}{13}%
-\contentsline {subsubsection}{\numberline {5.1.2}履歴交差法}{14}%
-\contentsline {subsubsection}{\numberline {5.1.3}履歴交差法の分散アルゴリズム}{16}%
-\contentsline {subsubsection}{\numberline {5.1.4}提案方式における分散アルゴリズムの効率}{18}%
-\contentsline {subsection}{\numberline {5.2}履歴交差法の理論的性能評価}{21}%
-\contentsline {subsection}{\numberline {5.3}提案するコアノードの実装}{24}%
-\contentsline {subsection}{\numberline {5.4}通信プロトコルの設計}{24}%
-\contentsline {section}{\numberline {6}検証と実装}{24}%
-\contentsline {subsection}{\numberline {6.1}実装}{24}%
-\contentsline {subsubsection}{\numberline {6.1.1}通信プロトコル部の実装}{24}%
-\contentsline {subsubsection}{\numberline {6.1.2}通信遅延の考慮}{26}%
-\contentsline {section}{\numberline {7}まとめと今後の課題}{27}%
-\contentsline {subsubsection}{\numberline {7.0.1}結果}{27}%
-\contentsline {subsubsection}{\numberline {7.0.2}理論的性能評価}{27}%
-\contentsline {subsubsection}{\numberline {7.0.3}実装システム}{27}%
-\contentsline {subsection}{\numberline {7.1}評価}{30}%
-\contentsline {subsection}{\numberline {7.2}考察}{30}%
-\contentsline {section}{\numberline {8}まとめ}{31}%
-\contentsline {part}{第I部\hspace {1zw}name}{33}%
+\contentsline {subsection}{\numberline {3.1}集中システムと分散システム}{5}%
+\contentsline {subsubsection}{\numberline {3.1.1}集中システム}{5}%
+\contentsline {subsubsection}{\numberline {3.1.2}分散システム}{5}%
+\contentsline {subsection}{\numberline {3.2}Bitcoin}{5}%
+\contentsline {subsection}{\numberline {3.3}分散台帳技術}{6}%
+\contentsline {subsection}{\numberline {3.4}ブロックチェーン}{7}%
+\contentsline {subsection}{\numberline {3.5}ビットコインにおけるブロック構造}{8}%
+\contentsline {subsubsection}{\numberline {3.5.1}transaction（トランザクション）}{8}%
+\contentsline {subsection}{\numberline {3.6}P2Pネットワーク [peer to peer sysytem]}{8}%
+\contentsline {subsection}{\numberline {3.7}ナカモト・コンセンサス}{8}%
+\contentsline {subsection}{\numberline {3.8}Proof of Work (PoW)}{8}%
+\contentsline {subsection}{\numberline {3.9}暗号学的ハッシュ関数}{9}%
+\contentsline {subsection}{\numberline {3.10}ビットコインにおけるブロック構造}{10}%
+\contentsline {subsubsection}{\numberline {3.10.1}transaction}{10}%
+\contentsline {subsubsection}{\numberline {3.10.2}Previous Block Hash}{10}%
+\contentsline {subsubsection}{\numberline {3.10.3}Merkle Root}{10}%
+\contentsline {subsubsection}{\numberline {3.10.4}Timestamp}{10}%
+\contentsline {subsubsection}{\numberline {3.10.5}Difficulty Target}{10}%
+\contentsline {subsection}{\numberline {3.11}ハッシュレート}{10}%
+\contentsline {subsection}{\numberline {3.12}公開鍵暗号方式}{10}%
+\contentsline {subsection}{\numberline {3.13}ブロックチェーンコアノードのドメイン分割}{10}%
+\contentsline {subsection}{\numberline {3.14}ブロックチェーンにおけるスケラビリティ問題}{10}%
+\contentsline {subsection}{\numberline {3.15}スケラビリティ問題へのアプローチ}{11}%
+\contentsline {subsection}{\numberline {3.16}電子署名}{11}%
+\contentsline {subsection}{\numberline {3.17}ヒステリシス署名}{11}%
+\contentsline {subsection}{\numberline {3.18}履歴交差法}{12}%
+\contentsline {section}{\numberline {4}関連研究}{12}%
+\contentsline {subsection}{\numberline {4.1}PoWaP（Poof of Work at Proximity for a crowdesnsing system）}{12}%
+\contentsline {subsection}{\numberline {4.2}藤原さんのやつ２}{13}%
+\contentsline {subsubsection}{\numberline {4.2.1}BBc-1}{13}%
+\contentsline {subsubsection}{\numberline {4.2.2}bloXroute}{13}%
+\contentsline {subsubsection}{\numberline {4.2.3}Atomic Swap}{13}%
+\contentsline {section}{\numberline {5}ブロックチェーン履歴交差法}{14}%
+\contentsline {subsection}{\numberline {5.1}提案手法}{14}%
+\contentsline {subsubsection}{\numberline {5.1.1}ブロック構造}{14}%
+\contentsline {subsubsection}{\numberline {5.1.2}履歴交差法}{15}%
+\contentsline {subsubsection}{\numberline {5.1.3}履歴交差法の分散アルゴリズム}{17}%
+\contentsline {subsubsection}{\numberline {5.1.4}提案方式における分散アルゴリズムの効率}{19}%
+\contentsline {subsection}{\numberline {5.2}履歴交差法の理論的性能評価}{22}%
+\contentsline {subsection}{\numberline {5.3}提案するコアノードの実装}{25}%
+\contentsline {subsection}{\numberline {5.4}通信プロトコルの設計}{25}%
+\contentsline {section}{\numberline {6}検証と実装}{25}%
+\contentsline {subsection}{\numberline {6.1}実装}{25}%
+\contentsline {subsubsection}{\numberline {6.1.1}通信プロトコル部の実装}{25}%
+\contentsline {subsubsection}{\numberline {6.1.2}通信遅延の考慮}{27}%
+\contentsline {section}{\numberline {7}まとめと今後の課題}{28}%
+\contentsline {subsubsection}{\numberline {7.0.1}結果}{28}%
+\contentsline {subsubsection}{\numberline {7.0.2}理論的性能評価}{28}%
+\contentsline {subsubsection}{\numberline {7.0.3}実装システム}{28}%
+\contentsline {subsection}{\numberline {7.1}評価}{31}%
+\contentsline {subsection}{\numberline {7.2}考察}{31}%
+\contentsline {section}{\numberline {8}まとめ}{32}%
+\contentsline {section}{\numberline {補完A}計画}{34}%

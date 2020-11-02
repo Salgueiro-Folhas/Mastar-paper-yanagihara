@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.10.15)  2 NOV 2020 14:40
+=======
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.6.22)  2 NOV 2020 05:17
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -306,6 +310,7 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 76.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 76.
+<<<<<<< HEAD
  (./master_thesis_yanagihara.toc)
 \tf@toc=\write3
 \openout3 = `master_thesis_yanagihara.toc'.
@@ -355,6 +360,58 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 
 LaTeX Warning: Reference `fig:p2p' on page 14 undefined on input line 594.
+=======
+ (./master_thesis_yanagihara.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 2.
+
+[2]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 66.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 66.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 66.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 66.
+)
+\tf@toc=\write3
+\openout3 = `master_thesis_yanagihara.toc'.
+
+ [3] [1] [2] [3] [4] [5] [6] [7]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+75.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+[8] [9] [10]
+File: pht/hysteresis_signature.eps Graphic file (type eps)
+<pht/hysteresis_signature.eps>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 499.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 499.
+ [11] [12] [13]
+LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <10> not available
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 592.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 592.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 592.
+LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <10> not available
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 592.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 592.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 592.
+
+
+LaTeX Warning: Reference `fig:p2p' on page 14 undefined on input line 592.
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 
 File: pht/p2p_network_image_r1.eps Graphic file (type eps)
 <pht/p2p_network_image_r1.eps>
@@ -372,23 +429,39 @@ File: pht/flow_chart-algorithm2.eps Graphic file (type eps)
 File: pht/hist-comp-R-alpha2.0-m1.0.eps Graphic file (type eps)
 <pht/hist-comp-R-alpha2.0-m1.0.eps>
 LaTeX Font Info:    External font `lmex10' loaded for size
+<<<<<<< HEAD
 (Font)              <9> on input line 845.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 845.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 845.
+=======
+(Font)              <9> on input line 843.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 843.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 843.
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 File: pht/hist-comp-R-alpha3.0-m1.0.eps Graphic file (type eps)
 <pht/hist-comp-R-alpha3.0-m1.0.eps>
  [23] [24]
 File: pht/Screenshot.eps Graphic file (type eps)
 <pht/Screenshot.eps>
 
+<<<<<<< HEAD
 Overfull \hbox (85.3692pt too wide) in paragraph at lines 894--895
+=======
+Overfull \hbox (85.3692pt too wide) in paragraph at lines 892--893
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
  [] 
  []
 
 [25]
+<<<<<<< HEAD
 Overfull \hbox (109.21526pt too wide) in paragraph at lines 931--943
+=======
+Overfull \hbox (109.21526pt too wide) in paragraph at lines 929--941
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 []\OT1/lmr/m/n/10 Phase1 \JY1/mc/m/n/10 では ， ドメイン $\OML/lmm/m/it/10 D[]$
  \JY1/mc/m/n/10 の中心コアノ ードが履歴交差の依頼 \OT1/lmr/m/n/10 (\OT1/lmr/bx/
 n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
@@ -396,7 +469,11 @@ n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
 
 [26]
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `fig:pings' on page 27 undefined on input line 972.
+=======
+LaTeX Warning: Reference `fig:pings' on page 27 undefined on input line 970.
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 
 [27]
 File: pht/phase1-sec-hist.eps Graphic file (type eps)
@@ -406,7 +483,11 @@ File: pht/phase2-sec-hist.eps Graphic file (type eps)
 File: pht/phase3-sec-hist.eps Graphic file (type eps)
 <pht/phase3-sec-hist.eps>
  [28] [29]
+<<<<<<< HEAD
 Overfull \hbox (109.21526pt too wide) in paragraph at lines 1044--1056
+=======
+Overfull \hbox (109.21526pt too wide) in paragraph at lines 1042--1054
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 []\OT1/lmr/m/n/10 Phase1 \JY1/mc/m/n/10 では ， ドメイン $\OML/lmm/m/it/10 D[]$
  \JY1/mc/m/n/10 の中心コアノ ードが履歴交差の依頼 \OT1/lmr/m/n/10 (\OT1/lmr/bx/
 n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
@@ -414,28 +495,56 @@ n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
 
 [30] [31] [32] [33]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+<<<<<<< HEAD
 1129.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Underfull \hbox (badness 1173) in paragraph at lines 1150--1152
+=======
+1127.
+ (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 1173) in paragraph at lines 1148--1150
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 []\OT1/lmr/m/n/10 K. Saito\JY1/mc/m/n/10 ， \OT1/lmr/m/n/10 T. Kubo\JY1/mc/m/n/
 10 ， \OT1/lmr/m/n/10 "BBc-1: Be-yond Blockchain One" (2018). $\OT1/lmtt/m/n/10
  https : / /
  []
 
+<<<<<<< HEAD
 [34] (./master_thesis_yanagihara.aux)
+=======
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 1182.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 1182.
+[34] [35] (./master_thesis_yanagihara.aux)
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  2336 strings out of 482863
  33195 string characters out of 5959217
  270564 words of memory out of 5000000
  17593 multiletter control sequences out of 15000+600000
  586408 words of font info for 103 fonts, out of 8000000 for 9000
+=======
+ 2340 strings out of 482863
+ 33254 string characters out of 5959218
+ 270564 words of memory out of 5000000
+ 17596 multiletter control sequences out of 15000+600000
+ 589425 words of font info for 106 fonts, out of 8000000 for 9000
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
  269 hyphenation exceptions out of 8191
  30i,8n,25p,244b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+<<<<<<< HEAD
 Output written on master_thesis_yanagihara.dvi (37 pages, 84744 bytes).
+=======
+Output written on master_thesis_yanagihara.dvi (39 pages, 94180 bytes).
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4

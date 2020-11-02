@@ -370,6 +370,7 @@ $SHA-256$と$RIPEMD160$である．ブロックチェーンとは，通貨の取
 
       \subsection{ビットコインにおけるブロック構造}
 ビットコインブロックチェーンにおけるブロック構造は以下図のように構成されている。
+<<<<<<< HEAD
 %図を作成して追加。
 
 
@@ -377,6 +378,15 @@ $SHA-256$と$RIPEMD160$である．ブロックチェーンとは，通貨の取
 トランザクション
 
 
+=======
+%図を作成する。
+
+
+            \subsubsection{transaction（トランザクション）}
+トランザクション
+
+
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
       \subsection{P2Pネットワーク [peer to peer sysytem]}
 全てが同じである複数プロセスによって構成される．
 P2Pシステムで行われるべき機能は，システムを構成するそれぞれのプロセスによって果たされているといえる．
@@ -385,7 +395,11 @@ P2Pシステムで行われるべき機能は，システムを構成するそ�
 このことから，サーバとクライアントと振る舞いながらから生まれた造語サーバントと呼ばれる．
 
       \subsection{ナカモト・コンセンサス}
+<<<<<<< HEAD
 ナカモト・コンセンサスはブロックチェーンにおける重要な役割を果たす
+=======
+      ナカモト・コンセンサスはブロックチェーンにおける重要な役割を果たす
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 
 
       \subsection{Proof of Work (PoW)}
@@ -439,6 +453,7 @@ difficultyターゲットを満たすSHA256のアルゴリズムに対し，解�
 	Nonce	proof of workで用いるカウンタ
 
 
+<<<<<<< HEAD
             \subsubsection{transaction}
 
             \subsubsection{Previous Block Hash}
@@ -446,6 +461,29 @@ difficultyターゲットを満たすSHA256のアルゴリズムに対し，解�
             \subsubsection{Timestamp}
             \subsubsection{Difficulty Target}
 
+=======
+
+\subsection{ビットコインにおけるブロック構造}
+ビットコインブロックチェーンにおけるブロック構造は以下図のように構成されている。
+%図を作成する。
+	Version	ソフトウェア／プロトコルのバージョン番号
+	Previous Block Hash	親ブロック（１つ前のブロック）のハッシュ値
+	Merkle Root	ブロック内の全トランザクションに対するマークルツリーのルートハッシュ
+	Timestamp	ブロックの生成時刻
+	Difficulty Target	ブロック生成時のproof of workのdifficulty
+	Nonce	proof of workで用いるカウンタ
+
+
+            \subsubsection{transaction（トランザクション）}
+トランザクション
+            \subsubsection{Previous Block Hash}
+            \subsubsection{Merkle Root}
+            \subsubsection{Timestamp}
+            \subsubsection{Difficulty Target}
+
+
+
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
       \subsection{ハッシュレート}
 本研究での，ハッシュレートとは，単位時間あたりに暗号学的ハッシュ関数の計算を行うことができる回数である．
 この時の改ざん耐性は，マイニングに勝利してブロックを生成するのは，ハッシュレートが
@@ -466,11 +504,14 @@ difficultyターゲットを満たすSHA256のアルゴリズムに対し，解�
 スケーラビリティ問題のアプローチとして
 
       \subsection{電子署名}
+<<<<<<< HEAD
 送信者から送られた文書が，正しく送信者が作成したものであるかは，文書全体が送信者の秘密鍵で暗号化されていれば確実である．
 しかし文書全体を公開鍵暗号方式で暗号することは効率面から難しいし，またその必要のない場合が多い．
 そこで，文書全体を暗号化するのではなく，文書の完全性を保証する情報を秘密鍵で暗号化して添付することが多い．
 それを電子署名（デジタル署名）という．
 
+=======
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 通常の電子署名は秘密鍵が漏洩することによる改ざん
 が可能であり，改ざんされたことの検知も不可能である．
 
@@ -1180,6 +1221,7 @@ WonderNetwork, \url{https://wondernetwork.com/pings}（2020年2月10日閲覧確
 
 
 \appendix
+<<<<<<< HEAD
 \def\thesection{補完A}
 \section{計画}
 
@@ -1195,5 +1237,20 @@ WonderNetwork, \url{https://wondernetwork.com/pings}（2020年2月10日閲覧確
 %  }
 %\end{verbatim}
 %\verb|\usepackage{ascmac}|して\verb|screen| 環境を使うと，枠がつきます。
+=======
+
+\part{name}
+\begin{verbatim}
+  #include <iostream>
+  using namespace std;
+  int main() {
+  for(int i = 1; i <= 5; i++) {
+  cout << "こんにちは, C++ の世界! " << i << endl;
+  }
+  return 0;
+  }
+\end{verbatim}
+\verb|\usepackage{ascmac}|して\verb|screen| 環境を使うと，枠がつきます。
+>>>>>>> 07d2d7829f09e67cae5357bd3569fdbfc0ef01c4
 
 \end{document}

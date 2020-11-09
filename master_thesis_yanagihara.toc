@@ -19,56 +19,51 @@
 \contentsline {subsection}{\numberline {3.4}ブロックチェーン}{7}%
 \contentsline {subsection}{\numberline {3.5}ビットコインにおけるブロック構造}{8}%
 \contentsline {subsubsection}{\numberline {3.5.1}transaction（トランザクション）}{8}%
-\contentsline {subsubsection}{\numberline {3.5.2}transaction（トランザクション）}{8}%
-\contentsline {subsection}{\numberline {3.6}P2Pネットワーク [peer to peer sysytem]}{8}%
-\contentsline {subsection}{\numberline {3.7}ナカモト・コンセンサス}{8}%
-\contentsline {subsection}{\numberline {3.8}Proof of Work (PoW)}{9}%
-\contentsline {subsection}{\numberline {3.9}暗号学的ハッシュ関数}{9}%
-\contentsline {subsection}{\numberline {3.10}ビットコインにおけるブロック構造}{10}%
-\contentsline {subsubsection}{\numberline {3.10.1}transaction}{10}%
-\contentsline {subsubsection}{\numberline {3.10.2}Previous Block Hash}{10}%
-\contentsline {subsubsection}{\numberline {3.10.3}Merkle Root}{10}%
-\contentsline {subsubsection}{\numberline {3.10.4}Timestamp}{10}%
-\contentsline {subsubsection}{\numberline {3.10.5}Difficulty Target}{10}%
-\contentsline {subsection}{\numberline {3.11}ビットコインにおけるブロック構造}{10}%
-\contentsline {subsubsection}{\numberline {3.11.1}transaction（トランザクション）}{11}%
-\contentsline {subsubsection}{\numberline {3.11.2}Previous Block Hash}{11}%
-\contentsline {subsubsection}{\numberline {3.11.3}Merkle Root}{11}%
-\contentsline {subsubsection}{\numberline {3.11.4}Timestamp}{11}%
-\contentsline {subsubsection}{\numberline {3.11.5}Difficulty Target}{11}%
-\contentsline {subsection}{\numberline {3.12}ハッシュレート}{11}%
-\contentsline {subsection}{\numberline {3.13}公開鍵暗号方式}{11}%
-\contentsline {subsection}{\numberline {3.14}ブロックチェーンコアノードのドメイン分割}{11}%
-\contentsline {subsection}{\numberline {3.15}ブロックチェーンにおけるスケラビリティ問題}{11}%
-\contentsline {subsection}{\numberline {3.16}スケラビリティ問題へのアプローチ}{11}%
-\contentsline {subsection}{\numberline {3.17}電子署名}{12}%
-\contentsline {subsection}{\numberline {3.18}ヒステリシス署名}{12}%
-\contentsline {subsection}{\numberline {3.19}履歴交差法}{13}%
-\contentsline {section}{\numberline {4}関連研究}{13}%
-\contentsline {subsection}{\numberline {4.1}PoWaP（Poof of Work at Proximity for a crowdesnsing system）}{13}%
-\contentsline {subsection}{\numberline {4.2}藤原さんのやつ２}{13}%
+\contentsline {subsection}{\numberline {3.6}P2Pネットワーク [peer to peer NetWork]}{8}%
+\contentsline {subsection}{\numberline {3.7}ブロックにおけるP2Pネットワーク }{8}%
+\contentsline {subsection}{\numberline {3.8}コンセンサスアルゴリズム}{9}%
+\contentsline {subsection}{\numberline {3.9}Proof of Work (PoW)}{9}%
+\contentsline {subsection}{\numberline {3.10}暗号学的ハッシュ関数}{10}%
+\contentsline {subsection}{\numberline {3.11}ビットコインにおけるブロック構造}{11}%
+\contentsline {subsection}{\numberline {3.12}ビットコインにおけるブロック構造}{11}%
+\contentsline {subsubsection}{\numberline {3.12.1}transaction（トランザクション）}{11}%
+\contentsline {subsubsection}{\numberline {3.12.2}Previous Block Hash}{12}%
+\contentsline {subsubsection}{\numberline {3.12.3}Merkle Root}{12}%
+\contentsline {subsubsection}{\numberline {3.12.4}Timestamp}{12}%
+\contentsline {subsubsection}{\numberline {3.12.5}Difficulty Target}{12}%
+\contentsline {subsection}{\numberline {3.13}ハッシュレート}{12}%
+\contentsline {subsection}{\numberline {3.14}公開鍵暗号方式}{12}%
+\contentsline {subsection}{\numberline {3.15}ブロックチェーンコアノードのドメイン分割}{12}%
+\contentsline {subsection}{\numberline {3.16}ブロックチェーンにおけるスケラビリティ問題}{12}%
+\contentsline {subsection}{\numberline {3.17}スケラビリティ問題へのアプローチ}{12}%
+\contentsline {subsection}{\numberline {3.18}電子署名}{12}%
+\contentsline {subsection}{\numberline {3.19}ヒステリシス署名}{13}%
+\contentsline {subsection}{\numberline {3.20}履歴交差法}{13}%
+\contentsline {section}{\numberline {4}関連研究}{14}%
+\contentsline {subsection}{\numberline {4.1}PoWaP（Poof of Work at Proximity for a crowdesnsing system）}{14}%
+\contentsline {subsection}{\numberline {4.2}藤原さんのやつ２}{14}%
 \contentsline {subsubsection}{\numberline {4.2.1}BBc-1}{14}%
 \contentsline {subsubsection}{\numberline {4.2.2}bloXroute}{14}%
-\contentsline {subsubsection}{\numberline {4.2.3}Atomic Swap}{14}%
-\contentsline {section}{\numberline {5}ブロックチェーン履歴交差法}{15}%
-\contentsline {subsection}{\numberline {5.1}提案手法}{15}%
-\contentsline {subsubsection}{\numberline {5.1.1}ブロック構造}{15}%
-\contentsline {subsubsection}{\numberline {5.1.2}履歴交差法}{16}%
-\contentsline {subsubsection}{\numberline {5.1.3}履歴交差法の分散アルゴリズム}{18}%
-\contentsline {subsubsection}{\numberline {5.1.4}提案方式における分散アルゴリズムの効率}{20}%
-\contentsline {subsection}{\numberline {5.2}履歴交差法の理論的性能評価}{23}%
-\contentsline {subsection}{\numberline {5.3}提案するコアノードの実装}{26}%
-\contentsline {subsection}{\numberline {5.4}通信プロトコルの設計}{26}%
-\contentsline {section}{\numberline {6}検証と実装}{26}%
-\contentsline {subsection}{\numberline {6.1}実装}{26}%
-\contentsline {subsubsection}{\numberline {6.1.1}通信プロトコル部の実装}{26}%
-\contentsline {subsubsection}{\numberline {6.1.2}通信遅延の考慮}{28}%
-\contentsline {section}{\numberline {7}まとめと今後の課題}{29}%
-\contentsline {subsubsection}{\numberline {7.0.1}結果}{29}%
-\contentsline {subsubsection}{\numberline {7.0.2}理論的性能評価}{29}%
-\contentsline {subsubsection}{\numberline {7.0.3}実装システム}{29}%
-\contentsline {subsection}{\numberline {7.1}評価}{32}%
-\contentsline {subsection}{\numberline {7.2}考察}{32}%
-\contentsline {section}{\numberline {8}まとめ}{33}%
-\contentsline {section}{\numberline {付録}\\コード}{36}%
-\contentsline {section}{\numberline {付録}\\補足}{37}%
+\contentsline {subsubsection}{\numberline {4.2.3}Atomic Swap}{15}%
+\contentsline {section}{\numberline {5}ブロックチェーン履歴交差法}{16}%
+\contentsline {subsection}{\numberline {5.1}提案手法}{16}%
+\contentsline {subsubsection}{\numberline {5.1.1}ブロック構造}{16}%
+\contentsline {subsubsection}{\numberline {5.1.2}履歴交差法}{17}%
+\contentsline {subsubsection}{\numberline {5.1.3}履歴交差法の分散アルゴリズム}{19}%
+\contentsline {subsubsection}{\numberline {5.1.4}提案方式における分散アルゴリズムの効率}{21}%
+\contentsline {subsection}{\numberline {5.2}履歴交差法の理論的性能評価}{24}%
+\contentsline {subsection}{\numberline {5.3}提案するコアノードの実装}{27}%
+\contentsline {subsection}{\numberline {5.4}通信プロトコルの設計}{27}%
+\contentsline {section}{\numberline {6}検証と実装}{27}%
+\contentsline {subsection}{\numberline {6.1}実装}{27}%
+\contentsline {subsubsection}{\numberline {6.1.1}通信プロトコル部の実装}{27}%
+\contentsline {subsubsection}{\numberline {6.1.2}通信遅延の考慮}{29}%
+\contentsline {section}{\numberline {7}まとめと今後の課題}{30}%
+\contentsline {subsubsection}{\numberline {7.0.1}結果}{30}%
+\contentsline {subsubsection}{\numberline {7.0.2}理論的性能評価}{30}%
+\contentsline {subsubsection}{\numberline {7.0.3}実装システム}{30}%
+\contentsline {subsection}{\numberline {7.1}評価}{33}%
+\contentsline {subsection}{\numberline {7.2}考察}{33}%
+\contentsline {section}{\numberline {8}まとめ}{34}%
+\contentsline {section}{\numberline {付録}\\コード}{37}%
+\contentsline {section}{\numberline {付録}\\補足}{38}%

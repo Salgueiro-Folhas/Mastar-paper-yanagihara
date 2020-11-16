@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.10.15)  11 NOV 2020 19:19
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.10.15)  16 NOV 2020 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -329,103 +329,103 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 105.
  [1] [2] [3] [4] [5] [6]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-27.
+26.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
 File: pht/hysteresis_signature.eps Graphic file (type eps)
 <pht/hysteresis_signature.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 680.
+(Font)              scaled to size 8.64899pt on input line 689.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 680.
- [17] [18]
+(Font)              scaled to size 8.64899pt on input line 689.
+ [18] [19]
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <10> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 738.
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 747.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 738.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 747.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 738.
+(Font)              scaled to size 9.60999pt on input line 747.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <10> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 738.
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 747.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 738.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 747.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 738.
+(Font)              scaled to size 9.60999pt on input line 747.
 
 
-LaTeX Warning: Reference `fig:p2p' on page 19 undefined on input line 738.
+LaTeX Warning: Reference `fig:p2p' on page 20 undefined on input line 747.
 
 File: pht/p2p_network_image_r1.eps Graphic file (type eps)
 <pht/p2p_network_image_r1.eps>
 File: pht/block_structure.eps Graphic file (type eps)
 <pht/block_structure.eps>
-[19]
+[20]
 File: pht/time_sequence-algorithm1.eps Graphic file (type eps)
 <pht/time_sequence-algorithm1.eps>
- [20] [21]
+ [21] [22]
 File: pht/flow_chart-algorithm1.eps Graphic file (type eps)
 <pht/flow_chart-algorithm1.eps>
 File: pht/flow_chart-algorithm2.eps Graphic file (type eps)
 <pht/flow_chart-algorithm2.eps>
- [22] [23] [24] [25] [26]
+ [23] [24] [25] [26] [27]
 File: pht/hist-comp-R-alpha2.0-m1.0.eps Graphic file (type eps)
 <pht/hist-comp-R-alpha2.0-m1.0.eps>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 983.
+(Font)              <9> on input line 991.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 983.
+(Font)              <6> on input line 991.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 983.
+(Font)              scaled to size 5.76599pt on input line 991.
 File: pht/hist-comp-R-alpha3.0-m1.0.eps Graphic file (type eps)
 <pht/hist-comp-R-alpha3.0-m1.0.eps>
- [27] [28]
+ [28] [29]
 File: pht/Screenshot.eps Graphic file (type eps)
 <pht/Screenshot.eps>
 
-Overfull \hbox (85.3692pt too wide) in paragraph at lines 1032--1033
+Overfull \hbox (85.3692pt too wide) in paragraph at lines 1040--1041
  [] 
  []
 
-[29]
-Overfull \hbox (109.21526pt too wide) in paragraph at lines 1069--1081
+[30]
+Overfull \hbox (109.21526pt too wide) in paragraph at lines 1077--1089
 []\OT1/lmr/m/n/10 Phase1 \JY1/mc/m/n/10 では ， ドメイン $\OML/lmm/m/it/10 D[]$
  \JY1/mc/m/n/10 の中心コアノ ードが履歴交差の依頼 \OT1/lmr/m/n/10 (\OT1/lmr/bx/
 n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
  []
 
-[30]
-
-LaTeX Warning: Reference `fig:pings' on page 31 undefined on input line 1110.
-
 [31]
+
+LaTeX Warning: Reference `fig:pings' on page 32 undefined on input line 1118.
+
+[32]
 File: pht/phase1-sec-hist.eps Graphic file (type eps)
 <pht/phase1-sec-hist.eps>
 File: pht/phase2-sec-hist.eps Graphic file (type eps)
 <pht/phase2-sec-hist.eps>
 File: pht/phase3-sec-hist.eps Graphic file (type eps)
 <pht/phase3-sec-hist.eps>
- [32] [33]
-Overfull \hbox (109.21526pt too wide) in paragraph at lines 1181--1193
+ [33] [34]
+Overfull \hbox (109.21526pt too wide) in paragraph at lines 1189--1201
 []\OT1/lmr/m/n/10 Phase1 \JY1/mc/m/n/10 では ， ドメイン $\OML/lmm/m/it/10 D[]$
  \JY1/mc/m/n/10 の中心コアノ ードが履歴交差の依頼 \OT1/lmr/m/n/10 (\OT1/lmr/bx/
 n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
  []
 
-[34] [35] [36] [37]
+[35] [36] [37] [38]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-1261.
+1269.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1173) in paragraph at lines 1282--1284
+Underfull \hbox (badness 1173) in paragraph at lines 1290--1292
 []\OT1/lmr/m/n/10 K. Saito\JY1/mc/m/n/10 ， \OT1/lmr/m/n/10 T. Kubo\JY1/mc/m/n/
 10 ， \OT1/lmr/m/n/10 "BBc-1: Be-yond Blockchain One" (2018). $\OT1/lmtt/m/n/10
  https : / /
  []
 
-[38] [39] [40] (./master_thesis_yanagihara.aux)
+[39] [40] [41] (./master_thesis_yanagihara.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -439,4 +439,4 @@ Here is how much of TeX's memory you used:
  269 hyphenation exceptions out of 8191
  30i,8n,25p,299b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master_thesis_yanagihara.dvi (44 pages, 115472 bytes).
+Output written on master_thesis_yanagihara.dvi (45 pages, 117020 bytes).

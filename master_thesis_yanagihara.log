@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.10.15)  16 NOV 2020 20:20
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.10.15)  17 NOV 2020 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -204,83 +204,112 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box66
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+(/usr/share/texlive/texmf-dist/tex/latex/showlabels/showlabels.sty
+Package: showlabels 2016/06/09 v1.8
+
+Package: `showlabels' v1.8 <2016/06/09>
+with amsmath equation tags
+\SL@labelposition=\count195
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2020-02-03 L3 backend support: dvips
 \l__pdf_internal_box=\box67
-\g__pdf_backend_object_int=\count195
+\g__pdf_backend_object_int=\count196
 \l__pdf_backend_content_box=\box68
 \l__pdf_backend_model_box=\box69
-\g__pdf_backend_annotation_int=\count196
-\g__pdf_backend_link_int=\count197
-\g__pdf_backend_link_sf_int=\count198
+\g__pdf_backend_annotation_int=\count197
+\g__pdf_backend_link_int=\count198
+\g__pdf_backend_link_sf_int=\count199
 )
-(./master_thesis_yanagihara.aux)
+(./master_thesis_yanagihara.aux
+
+LaTeX Warning: Label `fig:CentralizedSystem' multiply defined.
+
+
+LaTeX Warning: Label `fig:DistributedSystem' multiply defined.
+
+
+LaTeX Warning: Label `fig:DomainSplit' multiply defined.
+
+)
 \openout1 = `master_thesis_yanagihara.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
- (I search kanjifont definition file: . . )
-(I search font definition file: . . . . . . . )
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+ (I search kanjifont definition file: . . ) (I search font definition file: .
+. . . . . . )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-5.
-
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+6.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.45398pt on input line 22.
+(Font)              scaled to size 13.45398pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.45398pt on input line 22.
+(Font)              scaled to size 13.45398pt on input line 23.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 32.
+(Font)              scaled to size 4.805pt on input line 25.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 32.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 43.
+(Font)              scaled to size 4.805pt on input line 25.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+25.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 25.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 25.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 33.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 33.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 44.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-3.
+4.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-43.
+44.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-43.
+44.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14> on input line 43.
+(Font)              <14> on input line 44.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.79996> on input line 43.
+(Font)              <9.79996> on input line 44.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 43.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.41774pt on input line 43.
+(Font)              scaled to size 9.41774pt on input line 44.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 43.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 43
+(Font)              scaled to size 6.72699pt on input line 44.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 44
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
@@ -289,154 +318,192 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 68.
+(Font)              scaled to size 13.83836pt on input line 69.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 68.
+(Font)              scaled to size 13.83836pt on input line 69.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 68.
+(Font)              scaled to size 13.83836pt on input line 69.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 68.
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-68.
+(Font)              scaled to size 13.83836pt on input line 69.
+ [1]
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 77.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 77.
 
-(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1]
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 76.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 76.
- (./master_thesis_yanagihara.toc
+(./master_thesis_yanagihara.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 2.
-
-[2])
+ [2])
 \tf@toc=\write3
 \openout3 = `master_thesis_yanagihara.toc'.
 
  [3]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 105.
+(Font)              scaled to size 11.53198pt on input line 106.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 105.
+(Font)              scaled to size 11.53198pt on input line 106.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 105.
+(Font)              scaled to size 11.53198pt on input line 106.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 105.
- [1] [2] [3] [4] [5] [6]
+(Font)              scaled to size 11.53198pt on input line 106.
+File: pht/CentralizedSystem.eps Graphic file (type eps)
+<pht/CentralizedSystem.eps>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 128.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 128.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+129.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 129.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 129.
+LaTeX Font Info:    Trying to load font information for OMS+lmtt on input line 
+129.
+LaTeX Font Info:    No file OMSlmtt.fd. on input line 129.
+
+
+LaTeX Font Warning: Font shape `OMS/lmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 129.
+
+File: pht/DistributedSystem.eps Graphic file (type eps)
+<pht/DistributedSystem.eps>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 125--137
+[][]$[]$[] []$[]$[] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: pht/DomainSplit.eps Graphic file (type eps)
+<pht/DomainSplit.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1] [2] [3] [4] [5] [6] [7]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-26.
+51.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+) [8]
+[9]
+File: pht/CentralizedSystem.eps Graphic file (type eps)
+<pht/CentralizedSystem.eps>
+File: pht/DistributedSystem.eps Graphic file (type eps)
+<pht/DistributedSystem.eps>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 376--388
+[][]$[]$[] []$[]$[] 
+ []
+
+File: pht/DomainSplit.eps Graphic file (type eps)
+<pht/DomainSplit.eps>
+[10] [11] [12] [13] [14] [15] [16] [17]
+File: pht/bitnodes1117.eps Graphic file (type eps)
+<pht/bitnodes1117.eps>
+ [18] [19]
 File: pht/hysteresis_signature.eps Graphic file (type eps)
 <pht/hysteresis_signature.eps>
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 689.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 689.
- [18] [19]
+ [20] [21]
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <10> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 747.
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 798.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 747.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 798.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 747.
+(Font)              scaled to size 9.60999pt on input line 798.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <10> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 747.
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 798.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 747.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 798.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 747.
+(Font)              scaled to size 9.60999pt on input line 798.
 
 
-LaTeX Warning: Reference `fig:p2p' on page 20 undefined on input line 747.
+LaTeX Warning: Reference `fig:p2p' on page 22 undefined on input line 798.
 
 File: pht/p2p_network_image_r1.eps Graphic file (type eps)
 <pht/p2p_network_image_r1.eps>
 File: pht/block_structure.eps Graphic file (type eps)
 <pht/block_structure.eps>
-[20]
+[22]
 File: pht/time_sequence-algorithm1.eps Graphic file (type eps)
 <pht/time_sequence-algorithm1.eps>
- [21] [22]
+ [23] [24]
 File: pht/flow_chart-algorithm1.eps Graphic file (type eps)
 <pht/flow_chart-algorithm1.eps>
 File: pht/flow_chart-algorithm2.eps Graphic file (type eps)
 <pht/flow_chart-algorithm2.eps>
- [23] [24] [25] [26] [27]
+ [25] [26] [27] [28] [29]
 File: pht/hist-comp-R-alpha2.0-m1.0.eps Graphic file (type eps)
 <pht/hist-comp-R-alpha2.0-m1.0.eps>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 991.
+(Font)              <9> on input line 1042.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 991.
+(Font)              <6> on input line 1042.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 991.
+(Font)              scaled to size 5.76599pt on input line 1042.
 File: pht/hist-comp-R-alpha3.0-m1.0.eps Graphic file (type eps)
 <pht/hist-comp-R-alpha3.0-m1.0.eps>
- [28] [29]
+ [30] [31] [32]
 File: pht/Screenshot.eps Graphic file (type eps)
 <pht/Screenshot.eps>
 
-Overfull \hbox (85.3692pt too wide) in paragraph at lines 1040--1041
+Overfull \hbox (85.3692pt too wide) in paragraph at lines 1092--1093
  [] 
  []
 
-[30]
-Overfull \hbox (109.21526pt too wide) in paragraph at lines 1077--1089
-[]\OT1/lmr/m/n/10 Phase1 \JY1/mc/m/n/10 では ， ドメイン $\OML/lmm/m/it/10 D[]$
- \JY1/mc/m/n/10 の中心コアノ ードが履歴交差の依頼 \OT1/lmr/m/n/10 (\OT1/lmr/bx/
-n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
- []
+[33]
 
-[31]
+LaTeX Warning: Reference `fig:pings' on page 34 undefined on input line 1171.
 
-LaTeX Warning: Reference `fig:pings' on page 32 undefined on input line 1118.
-
-[32]
+[34]
 File: pht/phase1-sec-hist.eps Graphic file (type eps)
 <pht/phase1-sec-hist.eps>
 File: pht/phase2-sec-hist.eps Graphic file (type eps)
 <pht/phase2-sec-hist.eps>
 File: pht/phase3-sec-hist.eps Graphic file (type eps)
 <pht/phase3-sec-hist.eps>
- [33] [34]
-Overfull \hbox (109.21526pt too wide) in paragraph at lines 1189--1201
+ [35] [36]
+Overfull \hbox (109.21526pt too wide) in paragraph at lines 1242--1254
 []\OT1/lmr/m/n/10 Phase1 \JY1/mc/m/n/10 では ， ドメイン $\OML/lmm/m/it/10 D[]$
  \JY1/mc/m/n/10 の中心コアノ ードが履歴交差の依頼 \OT1/lmr/m/n/10 (\OT1/lmr/bx/
 n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
  []
 
-[35] [36] [37] [38]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-1269.
- (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 1173) in paragraph at lines 1290--1292
+[37] [38] [39] [40]
+Underfull \hbox (badness 1173) in paragraph at lines 1343--1345
 []\OT1/lmr/m/n/10 K. Saito\JY1/mc/m/n/10 ， \OT1/lmr/m/n/10 T. Kubo\JY1/mc/m/n/
 10 ， \OT1/lmr/m/n/10 "BBc-1: Be-yond Blockchain One" (2018). $\OT1/lmtt/m/n/10
  https : / /
  []
 
-[39] [40] [41] (./master_thesis_yanagihara.aux)
+[41] [42] [43] (./master_thesis_yanagihara.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 2336 strings out of 482863
- 33195 string characters out of 5959217
- 270564 words of memory out of 5000000
- 17593 multiletter control sequences out of 15000+600000
- 586408 words of font info for 103 fonts, out of 8000000 for 9000
+ 2451 strings out of 482863
+ 35057 string characters out of 5959217
+ 273752 words of memory out of 5000000
+ 17695 multiletter control sequences out of 15000+600000
+ 590445 words of font info for 111 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 30i,8n,25p,299b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,8n,25p,299b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master_thesis_yanagihara.dvi (45 pages, 117020 bytes).
+Output written on master_thesis_yanagihara.dvi (47 pages, 116092 bytes).

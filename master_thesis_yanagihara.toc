@@ -1,48 +1,40 @@
 \contentsline {section}{\numberline {1}序論}{1}%
 \contentsline {subsection}{\numberline {1.1}背景}{1}%
-\contentsline {subsubsection}{\numberline {1.1.1}ブロックチェーンの構造}{3}%
-\contentsline {subsubsection}{\numberline {1.1.2}ブロックチェーンの非中央集権性}{4}%
-\contentsline {subsubsection}{\numberline {1.1.3}ブロックチェーンの改ざん耐性}{4}%
-\contentsline {subsection}{\numberline {1.2}本研究の目的}{4}%
-\contentsline {section}{\numberline {2}関連研究}{5}%
-\contentsline {subsection}{\numberline {2.1}PoWaP（Poof of Work at Proximity for a crowdesnsing system）}{5}%
-\contentsline {subsection}{\numberline {2.2}BBc-1}{5}%
-\contentsline {subsection}{\numberline {2.3}bloXroute}{5}%
-\contentsline {subsection}{\numberline {2.4}PoWaP (Poof of Work at Proximity for a crowdesnsing system) S}{8}%
-\contentsline {subsection}{\numberline {2.5}Atomic Swap}{8}%
-\contentsline {section}{\numberline {3}関連技術動向}{10}%
-\contentsline {subsection}{\numberline {3.1}Bitcoin}{11}%
-\contentsline {subsection}{\numberline {3.2}分散台帳技術}{13}%
-\contentsline {subsection}{\numberline {3.3}ブロックチェーン}{13}%
-\contentsline {subsubsection}{\numberline {3.3.1}transaction（トランザクション）}{14}%
-\contentsline {subsection}{\numberline {3.4}P2Pネットワーク [peer to peer NetWork]}{14}%
-\contentsline {subsection}{\numberline {3.5}ブロックチェーンにおけるスケーラビリティ問題}{19}%
-\contentsline {subsection}{\numberline {3.6}スケーラビリティ問題へのアプローチ方法}{19}%
-\contentsline {subsubsection}{\numberline {3.6.1}オフチェーン ( off-chain )}{19}%
-\contentsline {subsubsection}{\numberline {3.6.2}オンチェーン ( on-chain )}{19}%
-\contentsline {subsection}{\numberline {3.7}ブロックチェーンコアノードのドメイン分割}{20}%
-\contentsline {subsection}{\numberline {3.8}ヒステリシス署名}{20}%
-\contentsline {subsection}{\numberline {3.9}履歴交差法}{21}%
-\contentsline {section}{\numberline {4}ブロックチェーン履歴交差法}{22}%
-\contentsline {subsection}{\numberline {4.1}提案手法}{22}%
-\contentsline {subsubsection}{\numberline {4.1.1}本研究におけるブロック構造}{22}%
-\contentsline {subsubsection}{\numberline {4.1.2}履歴交差法}{23}%
-\contentsline {subsubsection}{\numberline {4.1.3}履歴交差法の分散アルゴリズム}{25}%
-\contentsline {subsubsection}{\numberline {4.1.4}提案方式における分散アルゴリズムの効率}{27}%
-\contentsline {subsection}{\numberline {4.2}履歴交差法の理論的性能評価}{29}%
-\contentsline {subsection}{\numberline {4.3}提案するコアノードの実装}{32}%
-\contentsline {subsection}{\numberline {4.4}通信プロトコルの設計}{32}%
-\contentsline {section}{\numberline {5}検証と実装}{33}%
-\contentsline {subsection}{\numberline {5.1}実装}{33}%
-\contentsline {subsubsection}{\numberline {5.1.1}通信プロトコル部の実装}{33}%
-\contentsline {subsection}{\numberline {5.2}通信プロトコルの詳細}{33}%
-\contentsline {subsubsection}{\numberline {5.2.1}通信遅延の考慮}{34}%
-\contentsline {section}{\numberline {6}まとめと今後の課題}{35}%
-\contentsline {subsubsection}{\numberline {6.0.1}結果}{35}%
-\contentsline {subsubsection}{\numberline {6.0.2}理論的性能評価}{35}%
-\contentsline {subsubsection}{\numberline {6.0.3}実装システム}{35}%
-\contentsline {subsection}{\numberline {6.1}評価}{38}%
-\contentsline {subsection}{\numberline {6.2}考察}{38}%
-\contentsline {section}{\numberline {7}まとめ}{39}%
-\contentsline {section}{\numberline {付録}\\コード}{42}%
-\contentsline {section}{\numberline {付録}\\補足}{43}%
+\contentsline {subsection}{\numberline {1.2}本研究の目的}{3}%
+\contentsline {section}{\numberline {2}関連研究}{4}%
+\contentsline {subsection}{\numberline {2.1}BBc-1}{4}%
+\contentsline {subsection}{\numberline {2.2}bloXroute}{4}%
+\contentsline {subsection}{\numberline {2.3}PoWaP（Poof of Work at Proximity for a crowdesnsing system）}{5}%
+\contentsline {subsection}{\numberline {2.4}Atomic Swap}{5}%
+\contentsline {subsection}{\numberline {2.5}Raft Consensus Algorithm}{6}%
+\contentsline {section}{\numberline {3}関連技術動向}{7}%
+\contentsline {subsection}{\numberline {3.1}Bitcoin}{8}%
+\contentsline {subsection}{\numberline {3.2}ブロックチェーン}{9}%
+\contentsline {subsubsection}{\numberline {3.2.1}transaction（トランザクション）}{10}%
+\contentsline {subsubsection}{\numberline {3.2.2}Nonce（ナンス）}{10}%
+\contentsline {subsubsection}{\numberline {3.2.3}hash値（ハッシュ値）}{10}%
+\contentsline {subsection}{\numberline {3.3}P2Pネットワーク [peer to peer NetWork]}{10}%
+\contentsline {subsection}{\numberline {3.4}スケーラビリティ問題へのアプローチ方法}{14}%
+\contentsline {subsubsection}{\numberline {3.4.1}オフチェーン ( off-chain )}{14}%
+\contentsline {subsubsection}{\numberline {3.4.2}オンチェーン ( on-chain )}{15}%
+\contentsline {subsection}{\numberline {3.5}ブロックチェーンコアノードのドメイン分割}{15}%
+\contentsline {subsection}{\numberline {3.6}ヒステリシス署名}{15}%
+\contentsline {subsection}{\numberline {3.7}履歴交差法}{16}%
+\contentsline {subsection}{\numberline {3.8}Raft Consensus Algorithm}{16}%
+\contentsline {section}{\numberline {4}ブロックチェーン履歴交差法}{18}%
+\contentsline {subsection}{\numberline {4.1}提案手法}{18}%
+\contentsline {subsubsection}{\numberline {4.1.1}本研究におけるブロック構造}{18}%
+\contentsline {subsubsection}{\numberline {4.1.2}履歴交差法}{19}%
+\contentsline {subsubsection}{\numberline {4.1.3}提案方式の分散アルゴリズムの効率}{23}%
+\contentsline {subsection}{\numberline {4.2}履歴交差法の理論的性能}{24}%
+\contentsline {section}{\numberline {5}実装と実験}{28}%
+\contentsline {subsection}{\numberline {5.1}実装}{28}%
+\contentsline {subsubsection}{\numberline {5.1.1}通信プロトコルの実装}{28}%
+\contentsline {subsection}{\numberline {5.2}実装した履歴交差法の動作}{29}%
+\contentsline {subsection}{\numberline {5.3}通信遅延の考慮}{30}%
+\contentsline {subsubsection}{\numberline {5.3.1}疑似通信遅延機能の実装}{30}%
+\contentsline {subsection}{\numberline {5.4}t-故障耐性の実装}{30}%
+\contentsline {subsubsection}{\numberline {5.4.1}実験結果}{31}%
+\contentsline {section}{\numberline {6}結論}{34}%
+\contentsline {section}{\numberline {付録}\\コード}{37}%
+\contentsline {section}{\numberline {付録}\\補足}{38}%

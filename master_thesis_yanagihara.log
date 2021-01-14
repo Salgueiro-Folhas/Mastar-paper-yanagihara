@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.11.25)  13 JAN 2021 15:00
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.11.25)  14 JAN 2021 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -357,7 +357,7 @@ File: pht/hysteresis_signature.eps Graphic file (type eps)
 <pht/hysteresis_signature.eps>
  [15] [16] [17]
 
-LaTeX Warning: Reference `fig:p2p' on page 18 undefined on input line 635.
+LaTeX Warning: Reference `fig:p2p' on page 18 undefined on input line 634.
 
 File: pht/p2p_network_image_r1.eps Graphic file (type eps)
 <pht/p2p_network_image_r1.eps>
@@ -375,55 +375,63 @@ File: pht/flow_chart-algorithm2.eps Graphic file (type eps)
 File: pht/hist-comp-R-alpha2.0-m1.0.eps Graphic file (type eps)
 <pht/hist-comp-R-alpha2.0-m1.0.eps>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 843.
+(Font)              <9> on input line 842.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 843.
+(Font)              <6> on input line 842.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 843.
+(Font)              scaled to size 5.76599pt on input line 842.
 File: pht/hist-comp-R-alpha3.0-m1.0.eps Graphic file (type eps)
 <pht/hist-comp-R-alpha3.0-m1.0.eps>
  [26] [27]
 File: pht/Screenshot.eps Graphic file (type eps)
 <pht/Screenshot.eps>
 
-Overfull \hbox (85.3692pt too wide) in paragraph at lines 888--889
+Overfull \hbox (85.3692pt too wide) in paragraph at lines 887--888
  [] 
  []
 
 [28] [29]
 
-LaTeX Warning: Reference `fig:pings' on page 30 undefined on input line 966.
+LaTeX Warning: Reference `fig:pings' on page 30 undefined on input line 965.
 
 [30]
+File: pht/kankyou.eps Graphic file (type eps)
+<pht/kankyou.eps>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 1009.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 1009.
 
-LaTeX Warning: Reference `' on page 31 undefined on input line 1000.
+
+LaTeX Warning: Reference `' on page 31 undefined on input line 1020.
 
 File: pht/phase1-sec-hist.eps Graphic file (type eps)
 <pht/phase1-sec-hist.eps>
+[31]
 File: pht/phase2-sec-hist.eps Graphic file (type eps)
 <pht/phase2-sec-hist.eps>
 File: pht/phase3-sec-hist.eps Graphic file (type eps)
 <pht/phase3-sec-hist.eps>
-[31] [32]
-Overfull \hbox (109.21526pt too wide) in paragraph at lines 1050--1062
+ [32] [33]
+Overfull \hbox (109.21526pt too wide) in paragraph at lines 1070--1082
 []\OT1/lmr/m/n/10 Phase1 \JY1/mc/m/n/10 では ， ドメイン $\OML/lmm/m/it/10 D[]$
  \JY1/mc/m/n/10 の中心コアノ ードが履歴交差の依頼 \OT1/lmr/m/n/10 (\OT1/lmr/bx/
 n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
  []
 
-[33] [34] [35]
+[34] [35] [36]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-1130.
+1150.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1173) in paragraph at lines 1151--1153
+Underfull \hbox (badness 1173) in paragraph at lines 1171--1173
 []\OT1/lmr/m/n/10 K. Saito\JY1/mc/m/n/10 ， \OT1/lmr/m/n/10 T. Kubo\JY1/mc/m/n/
 10 ， \OT1/lmr/m/n/10 "BBc-1: Be-yond Blockchain One" (2018). $\OT1/lmtt/m/n/10
  https : / /
  []
 
-[36] [37] [38] (./master_thesis_yanagihara.aux)
+[37] [38] [39] (./master_thesis_yanagihara.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -432,12 +440,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2152 strings out of 482863
- 30611 string characters out of 5959217
- 271232 words of memory out of 5000000
- 17409 multiletter control sequences out of 15000+600000
- 586408 words of font info for 103 fonts, out of 8000000 for 9000
+ 2162 strings out of 482863
+ 30753 string characters out of 5959217
+ 271242 words of memory out of 5000000
+ 17416 multiletter control sequences out of 15000+600000
+ 587522 words of font info for 107 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
  30i,8n,25p,263b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master_thesis_yanagihara.dvi (42 pages, 102484 bytes).
+Output written on master_thesis_yanagihara.dvi (43 pages, 103356 bytes).

@@ -3,11 +3,14 @@
 \citation{fujihara2}
 \@writefile{toc}{\contentsline {section}{\numberline {1}序論}{1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1}背景}{1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Bitcoin: A Peer-to-Peer Electronic Cash Systemの誕生}{1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Bitcoinブロックチェーンのスケーラビリティ問題}{2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 2020年11月17日現在の全世界のBitcoinコアノード分布}}{2}\protected@file@percent }
 \newlabel{fig:bitnodes}{{1}{2}}
 \citation{fujihara1}
 \citation{fujihara2}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}本研究の目的}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}スケーラビリティの問題へのアプローチ}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5}本研究の目的}{3}\protected@file@percent }
 \citation{saito}
 \citation{bloX}
 \@writefile{toc}{\contentsline {section}{\numberline {2}関連研究}{4}\protected@file@percent }
@@ -16,9 +19,6 @@
 \citation{DomainSplit}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}PoWaP（Poof of Work at Proximity for a crowdesnsing system）}{5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Atomic Swap}{5}\protected@file@percent }
-\citation{Raft Consensus Algorithm}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Raft Consensus Algorithm}{6}\protected@file@percent }
-\newlabel{Raft}{{2.5}{6}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}関連技術動向}{7}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 集中システム}}{7}\protected@file@percent }
 \newlabel{fig:CentralizedSystem}{{2}{7}}
@@ -28,72 +28,94 @@
 \newlabel{fig:DomainSplit}{{4}{7}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Bitcoin}{8}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}ブロックチェーン}{9}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}transaction（トランザクション）}{10}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Nonce（ナンス）}{10}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}hash値（ハッシュ値）}{10}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}P2Pネットワーク [peer to peer NetWork]}{10}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}スケーラビリティ問題へのアプローチ方法}{14}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}オフチェーン ( off-chain )}{14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}ビットコインにおけるブロック構造}{10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}transaction（トランザクション）}{10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Nonce（ナンス）}{10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}hash値（ハッシュ値）}{10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}P2Pネットワーク [peer to peer NetWork]}{10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Proof of Work (PoW)}{11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}暗号学的ハッシュ関数}{12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}ビットコインにおけるブロック構造}{13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}ハッシュレート}{13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.9}公開鍵暗号方式}{14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.10}共通暗号方式}{14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.11}楕円曲線暗号}{14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.12}スケーラビリティ問題へのアプローチ方法}{14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.12.1}効率の改善}{14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.12.2}Layer2 システム}{15}\protected@file@percent }
 \citation{fujihara1}
 \citation{fujihara2}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.12.3}ブロックサイズの増加}{16}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.12.4}オフチェーン ( off-chain )}{16}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.12.5}オンチェーン ( on-chain )}{16}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.13}ブロックチェーンコアノードのドメイン分割}{16}\protected@file@percent }
 \citation{suzaki}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}オンチェーン ( on-chain )}{15}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}ブロックチェーンコアノードのドメイン分割}{15}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}ヒステリシス署名}{15}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.14}電子署名}{17}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.15}ヒステリシス署名}{17}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces ヒステリシス署名の例}}{17}\protected@file@percent }
+\newlabel{fig:hysteresis}{{5}{17}}
 \citation{Raft Consensus Algorithm}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces ヒステリシス署名の例}}{16}\protected@file@percent }
-\newlabel{fig:hysteresis}{{5}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}履歴交差法}{16}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Raft Consensus Algorithm}{16}\protected@file@percent }
-\newlabel{Raft}{{3.8}{16}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}ブロックチェーン履歴交差法}{18}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}提案手法}{18}\protected@file@percent }
-\newlabel{teian}{{4.1}{18}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}本研究におけるブロック構造}{18}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 提案するブロック構造}}{19}\protected@file@percent }
-\newlabel{fig:block}{{7}{19}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}履歴交差法}{19}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.16}分散アルゴリズムの効率}{18}\protected@file@percent }
+\newlabel{Algorithm_efficiency}{{3.16}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.17}履歴交差法}{18}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.18}Raft Consensus Algorithm}{18}\protected@file@percent }
+\newlabel{Raft}{{3.18}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.18.1}Raftの耐障害性}{19}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.19}ビザンチン障害}{19}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}ブロックチェーン履歴交差法}{21}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}提案手法}{21}\protected@file@percent }
+\newlabel{teian}{{4.1}{21}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}本研究におけるブロック構造}{21}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 提案するブロック構造}}{22}\protected@file@percent }
+\newlabel{fig:block}{{7}{22}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}履歴交差法}{22}\protected@file@percent }
 \citation{manabe}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 提案する履歴交差法}}{20}\protected@file@percent }
-\newlabel{fig:cross-ref}{{8}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces アルゴリズム1（Phase 2はLayer1における通常のマイニング作業を行うだけである為，省略した．）}}{22}\protected@file@percent }
-\newlabel{fig:algorithm1}{{9}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces アルゴリズム2(Phase 1のみを記述．その他のPhaseはアルゴリズム1と共通．)}}{23}\protected@file@percent }
-\newlabel{fig:algorithm2}{{10}{23}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}提案方式の分散アルゴリズムの効率}{23}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}履歴交差法の理論的性能}{24}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces 改ざん耐性向上比率$R$の確率分布 ( $\alpha =2$の場合 ) }}{26}\protected@file@percent }
-\newlabel{fig:alpha2}{{11}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces 改ざん耐性向上比率$R$の確率分布 ( $\alpha =3$の場合 ) }}{27}\protected@file@percent }
-\newlabel{fig:alpha3}{{12}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 提案する履歴交差法}}{23}\protected@file@percent }
+\newlabel{fig:cross-ref}{{8}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces アルゴリズム1（Phase 2はLayer1における通常のマイニング作業を行うだけである為，省略した．）}}{25}\protected@file@percent }
+\newlabel{fig:algorithm1}{{9}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces アルゴリズム2(Phase 1のみを記述．その他のPhaseはアルゴリズム1と共通．)}}{26}\protected@file@percent }
+\newlabel{fig:algorithm2}{{10}{26}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}提案方式の分散アルゴリズムの効率}{26}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}履歴交差法の理論的性能評価}{27}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces 改ざん耐性向上比率$R$の確率分布 ( $\alpha =2$の場合 ) }}{29}\protected@file@percent }
+\newlabel{fig:alpha2}{{11}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces 改ざん耐性向上比率$R$の確率分布 ( $\alpha =3$の場合 ) }}{29}\protected@file@percent }
+\newlabel{fig:alpha3}{{12}{29}}
 \citation{pings}
 \citation{pings}
 \citation{hamatsu2018}
-\@writefile{toc}{\contentsline {section}{\numberline {5}実装と実験}{28}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}実装}{28}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}通信プロトコルの実装}{28}\protected@file@percent }
-\newlabel{syuhou}{{5.1.1}{28}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}実装した履歴交差法の動作}{29}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}実装と評価}{30}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}実装}{30}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}履歴交差の通信プロトコルの実装}{30}\protected@file@percent }
+\newlabel{syuhou}{{5.1.1}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}実装した通信プロトコルの動作}{30}\protected@file@percent }
 \citation{pings}
 \citation{pings}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}通信遅延の考慮}{30}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}疑似通信遅延機能の実装}{30}\protected@file@percent }
-\newlabel{byt}{{10}{30}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Tokyoからの各ドメインへの疑似通信遅延(小数第2以下は省略)}}{30}\protected@file@percent }
-\newlabel{Byte}{{1}{30}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}t-故障耐性の実装}{30}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}実験環境}{31}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces 実験環境のシステム構成}}{31}\protected@file@percent }
-\newlabel{fig:kankyou}{{14}{31}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2}理論的性能評価}{32}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.3}実験結果}{32}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Phase1の計測時間}}{32}\protected@file@percent }
-\newlabel{fig:phase1}{{15}{32}}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Phase2の計測時間}}{33}\protected@file@percent }
-\newlabel{fig:phase2}{{16}{33}}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Phase3の計測時間}}{33}\protected@file@percent }
-\newlabel{fig:phase3}{{17}{33}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}結論}{35}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}通信遅延の考慮}{31}\protected@file@percent }
+\newlabel{crossref_p}{{5.3}{31}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}疑似通信遅延機能の実装}{31}\protected@file@percent }
+\newlabel{byt}{{10}{32}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Tokyoからの各ドメインへの疑似通信遅延(小数第2以下は省略)}}{32}\protected@file@percent }
+\newlabel{Byte}{{1}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}t-故障耐性と履歴交差リーダーの選定機能の実装}{32}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces ノード起動時のフローチャート}}{33}\protected@file@percent }
+\newlabel{fig:Raft1}{{14}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces リーダーの定期動作のフローチャート}}{33}\protected@file@percent }
+\newlabel{fig:Raft2}{{15}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces フォロワーの定期動作のフローチャート}}{34}\protected@file@percent }
+\newlabel{fig:Raft3}{{16}{34}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}実験環境}{35}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces 実験環境のシステム構成}}{35}\protected@file@percent }
+\newlabel{fig:kankyou}{{17}{35}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1}実験結果}{35}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Phase1の計測時間}}{36}\protected@file@percent }
+\newlabel{fig:phase1}{{18}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Phase2の計測時間}}{36}\protected@file@percent }
+\newlabel{fig:phase2}{{19}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Phase3の計測時間}}{37}\protected@file@percent }
+\newlabel{fig:phase3}{{20}{37}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}結論}{39}\protected@file@percent }
 \bibcite{Bitcoin}{1}
 \bibcite{fujihara1}{2}
 \bibcite{fujihara2}{3}
@@ -105,5 +127,5 @@
 \bibcite{hamatsu2018}{9}
 \bibcite{pings}{10}
 \bibcite{Raft Consensus Algorithm}{11}
-\@writefile{toc}{\contentsline {section}{\numberline {付録}\\コード}{38}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {付録}\\補足}{39}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {付録}\\コード}{42}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {付録}\\補足}{43}\protected@file@percent }

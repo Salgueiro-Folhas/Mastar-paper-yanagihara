@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.11.25)  14 JAN 2021 15:11
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.11.25)  18 JAN 2021 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -196,11 +196,7 @@ File: l3backend-dvips.def 2020-02-03 L3 backend support: dvips
 \g__pdf_backend_link_int=\count190
 \g__pdf_backend_link_sf_int=\count191
 )
-(./master_thesis_yanagihara.aux
-
-LaTeX Warning: Label `Raft' multiply defined.
-
-)
+(./master_thesis_yanagihara.aux)
 \openout1 = `master_thesis_yanagihara.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -221,11 +217,12 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
- (I search kanjifont definition file: . . ) (I search font definition file: .
-. . . . . . )
+ (I search kanjifont definition file: . . )
+(I search font definition file: . . . . . . . )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 5.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
@@ -346,106 +343,106 @@ File: pht/CentralizedSystem.eps Graphic file (type eps)
 File: pht/DistributedSystem.eps Graphic file (type eps)
 <pht/DistributedSystem.eps>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 255--267
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 237--249
 [][]$[]$[] []$[]$[] 
  []
 
 File: pht/DomainSplit.eps Graphic file (type eps)
 <pht/DomainSplit.eps>
-[7] [8] [9] [10] [11] [12] [13] [14]
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
 File: pht/hysteresis_signature.eps Graphic file (type eps)
 <pht/hysteresis_signature.eps>
- [15] [16] [17]
+ [17] [18] [19] [20]
 
-LaTeX Warning: Reference `fig:p2p' on page 18 undefined on input line 634.
+LaTeX Warning: Reference `fig:p2p' on page 21 undefined on input line 712.
 
 File: pht/p2p_network_image_r1.eps Graphic file (type eps)
 <pht/p2p_network_image_r1.eps>
 File: pht/block_structure.eps Graphic file (type eps)
 <pht/block_structure.eps>
-[18]
+[21]
 File: pht/time_sequence-algorithm1.eps Graphic file (type eps)
 <pht/time_sequence-algorithm1.eps>
- [19] [20]
+ [22] [23]
 File: pht/flow_chart-algorithm1.eps Graphic file (type eps)
 <pht/flow_chart-algorithm1.eps>
 File: pht/flow_chart-algorithm2.eps Graphic file (type eps)
 <pht/flow_chart-algorithm2.eps>
- [21] [22] [23] [24] [25]
+ [24] [25] [26] [27]
 File: pht/hist-comp-R-alpha2.0-m1.0.eps Graphic file (type eps)
 <pht/hist-comp-R-alpha2.0-m1.0.eps>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 842.
+(Font)              <9> on input line 908.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 842.
+(Font)              <6> on input line 908.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 842.
+(Font)              scaled to size 5.76599pt on input line 908.
 File: pht/hist-comp-R-alpha3.0-m1.0.eps Graphic file (type eps)
 <pht/hist-comp-R-alpha3.0-m1.0.eps>
- [26] [27]
+ [28] [29]
 File: pht/Screenshot.eps Graphic file (type eps)
 <pht/Screenshot.eps>
 
-Overfull \hbox (85.3692pt too wide) in paragraph at lines 887--888
+Overfull \hbox (85.3692pt too wide) in paragraph at lines 936--937
  [] 
  []
 
-[28] [29]
+[30] [31]
 
-LaTeX Warning: Reference `fig:pings' on page 30 undefined on input line 965.
+LaTeX Warning: Reference `fig:pings' on page 32 undefined on input line 1015.
 
-[30]
+File: pht/raft_flow_chart-algorithm1.eps Graphic file (type eps)
+<pht/raft_flow_chart-algorithm1.eps>
+File: pht/raft_flow_chart-algorithm2.eps Graphic file (type eps)
+<pht/raft_flow_chart-algorithm2.eps>
+[32]
+File: pht/raft_flow_chart-algorithm3.eps Graphic file (type eps)
+<pht/raft_flow_chart-algorithm3.eps>
+ [33] [34]
 File: pht/kankyou.eps Graphic file (type eps)
 <pht/kankyou.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 1009.
+(Font)              scaled to size 6.72699pt on input line 1100.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 1009.
-
-
-LaTeX Warning: Reference `' on page 31 undefined on input line 1020.
-
+(Font)              scaled to size 4.805pt on input line 1100.
 File: pht/phase1-sec-hist.eps Graphic file (type eps)
 <pht/phase1-sec-hist.eps>
-[31]
 File: pht/phase2-sec-hist.eps Graphic file (type eps)
 <pht/phase2-sec-hist.eps>
+ [35]
 File: pht/phase3-sec-hist.eps Graphic file (type eps)
 <pht/phase3-sec-hist.eps>
- [32] [33]
-Overfull \hbox (109.21526pt too wide) in paragraph at lines 1070--1082
+ [36]
+Overfull \hbox (109.21526pt too wide) in paragraph at lines 1158--1170
 []\OT1/lmr/m/n/10 Phase1 \JY1/mc/m/n/10 では ， ドメイン $\OML/lmm/m/it/10 D[]$
  \JY1/mc/m/n/10 の中心コアノ ードが履歴交差の依頼 \OT1/lmr/m/n/10 (\OT1/lmr/bx/
 n/10 MSG[]REQUEST[]CROSS[]REFERENCE\OT1/lmr/m/n/10 )
  []
 
-[34] [35] [36]
+[37] [38] [39] [40]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-1150.
+1238.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1173) in paragraph at lines 1171--1173
+Underfull \hbox (badness 1173) in paragraph at lines 1259--1261
 []\OT1/lmr/m/n/10 K. Saito\JY1/mc/m/n/10 ， \OT1/lmr/m/n/10 T. Kubo\JY1/mc/m/n/
 10 ， \OT1/lmr/m/n/10 "BBc-1: Be-yond Blockchain One" (2018). $\OT1/lmtt/m/n/10
  https : / /
  []
 
-[37] [38] [39] (./master_thesis_yanagihara.aux)
+[41] [42] [43] (./master_thesis_yanagihara.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 2162 strings out of 482863
- 30753 string characters out of 5959217
- 271242 words of memory out of 5000000
- 17416 multiletter control sequences out of 15000+600000
+ 2178 strings out of 482863
+ 31253 string characters out of 5959217
+ 270257 words of memory out of 5000000
+ 17429 multiletter control sequences out of 15000+600000
  587522 words of font info for 107 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 30i,8n,25p,263b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,8n,25p,558b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master_thesis_yanagihara.dvi (43 pages, 103356 bytes).
+Output written on master_thesis_yanagihara.dvi (47 pages, 113872 bytes).

@@ -27,32 +27,30 @@
 \contentsline {subsection}{\numberline {3.12}スケーラビリティ問題へのアプローチ方法}{14}%
 \contentsline {subsubsection}{\numberline {3.12.1}効率の改善}{14}%
 \contentsline {subsubsection}{\numberline {3.12.2}Layer2 システム}{15}%
-\contentsline {subsubsection}{\numberline {3.12.3}ブロックサイズの増加}{16}%
-\contentsline {subsubsection}{\numberline {3.12.4}オフチェーン ( off-chain )}{16}%
-\contentsline {subsubsection}{\numberline {3.12.5}オンチェーン ( on-chain )}{16}%
-\contentsline {subsection}{\numberline {3.13}ブロックチェーンコアノードのドメイン分割}{16}%
-\contentsline {subsection}{\numberline {3.14}電子署名}{17}%
-\contentsline {subsection}{\numberline {3.15}ヒステリシス署名}{17}%
-\contentsline {subsection}{\numberline {3.16}分散アルゴリズムの効率}{18}%
-\contentsline {subsection}{\numberline {3.17}履歴交差法}{18}%
-\contentsline {subsection}{\numberline {3.18}Raft Consensus Algorithm}{18}%
-\contentsline {subsubsection}{\numberline {3.18.1}Raftの耐障害性}{19}%
-\contentsline {subsection}{\numberline {3.19}ビザンチン障害}{19}%
-\contentsline {section}{\numberline {4}ブロックチェーン履歴交差法}{21}%
-\contentsline {subsection}{\numberline {4.1}提案手法}{21}%
-\contentsline {subsubsection}{\numberline {4.1.1}本研究におけるブロック構造}{21}%
-\contentsline {subsubsection}{\numberline {4.1.2}履歴交差法}{22}%
-\contentsline {subsubsection}{\numberline {4.1.3}提案方式の分散アルゴリズムの効率}{26}%
-\contentsline {subsection}{\numberline {4.2}履歴交差法の理論的性能評価}{27}%
-\contentsline {section}{\numberline {5}実装と評価}{30}%
-\contentsline {subsection}{\numberline {5.1}実装}{30}%
-\contentsline {subsubsection}{\numberline {5.1.1}履歴交差の通信プロトコルの実装}{30}%
-\contentsline {subsection}{\numberline {5.2}実装した通信プロトコルの動作}{30}%
-\contentsline {subsection}{\numberline {5.3}通信遅延の考慮}{31}%
-\contentsline {subsubsection}{\numberline {5.3.1}疑似通信遅延機能の実装}{31}%
-\contentsline {subsection}{\numberline {5.4}t-故障耐性と履歴交差リーダーの選定機能の実装}{32}%
-\contentsline {subsection}{\numberline {5.5}実験環境}{35}%
-\contentsline {subsubsection}{\numberline {5.5.1}実験結果}{35}%
-\contentsline {section}{\numberline {6}結論}{39}%
-\contentsline {section}{\numberline {付録}\\コード}{42}%
-\contentsline {section}{\numberline {付録}\\補足}{43}%
+\contentsline {subsubsection}{\numberline {3.12.3}ブロックサイズの増加}{15}%
+\contentsline {subsection}{\numberline {3.13}ブロックチェーンコアノードのドメイン分割}{15}%
+\contentsline {subsection}{\numberline {3.14}電子署名}{15}%
+\contentsline {subsection}{\numberline {3.15}ヒステリシス署名}{15}%
+\contentsline {subsection}{\numberline {3.16}分散アルゴリズムの効率}{16}%
+\contentsline {subsection}{\numberline {3.17}履歴交差法}{17}%
+\contentsline {subsection}{\numberline {3.18}Raft Consensus Algorithm}{17}%
+\contentsline {subsubsection}{\numberline {3.18.1}Raftの耐障害性}{18}%
+\contentsline {subsection}{\numberline {3.19}ビザンチン障害}{18}%
+\contentsline {section}{\numberline {4}ブロックチェーン履歴交差法}{19}%
+\contentsline {subsection}{\numberline {4.1}提案手法}{19}%
+\contentsline {subsubsection}{\numberline {4.1.1}本研究におけるブロック構造}{19}%
+\contentsline {subsubsection}{\numberline {4.1.2}履歴交差法}{20}%
+\contentsline {subsubsection}{\numberline {4.1.3}提案方式の分散アルゴリズムの効率}{24}%
+\contentsline {subsection}{\numberline {4.2}履歴交差法の理論的性能評価}{25}%
+\contentsline {section}{\numberline {5}実装と評価}{28}%
+\contentsline {subsection}{\numberline {5.1}実装}{28}%
+\contentsline {subsubsection}{\numberline {5.1.1}履歴交差の通信プロトコルの実装}{28}%
+\contentsline {subsection}{\numberline {5.2}実装した通信プロトコルの動作}{28}%
+\contentsline {subsection}{\numberline {5.3}通信遅延の考慮}{29}%
+\contentsline {subsubsection}{\numberline {5.3.1}疑似通信遅延機能の実装}{29}%
+\contentsline {subsection}{\numberline {5.4}t-故障耐性と履歴交差リーダーの選定機能の実装}{30}%
+\contentsline {subsection}{\numberline {5.5}実験環境}{33}%
+\contentsline {subsubsection}{\numberline {5.5.1}実験結果}{33}%
+\contentsline {section}{\numberline {6}結論}{37}%
+\contentsline {section}{\numberline {付録}\\コード}{40}%
+\contentsline {section}{\numberline {付録}\\補足}{41}%
